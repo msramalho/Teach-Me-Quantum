@@ -6,7 +6,7 @@ This course is Open-source and fit for both individual learning as well as to be
 
 ## Course Overview
 
- * 📁 [Week 0 - Hello Quantum World]()
+ * 📁 [Week 0 - Hello Quantum World](Week%200%20-%20Hello%20Quantum%20World)
      * 📖 [Slides]()*
      * 📁 [Exercises]()
      * 📁 [Solutions]()
