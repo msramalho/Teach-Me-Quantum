@@ -7,11 +7,12 @@ This course is Open-source and fit for both individual learning as well as to be
 ## Course Overview
 
  * 📁 [Week 0 - Hello Quantum World]()
-     * 📖 [Slides]()
-     * 📋 [Speaker Notes]()
+     * 📖 [Slides]()*
      * 📁 [Exercises]()
      * 📁 [Solutions]()
  * 📁 Week 1 - 
+
+\* Slides include 📋 Speaker Motes
 
 ## Prior Knowledge
 Students of this course are expected to be familiar with:
