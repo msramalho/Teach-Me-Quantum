@@ -1,1 +1,1 @@
-# Teach-Me-Quantum
+# Teach Me Quantum
