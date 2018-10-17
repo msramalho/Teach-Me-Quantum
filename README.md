@@ -1,6 +1,6 @@
 <h1 align="center">Teach Me Quantum</h1>
 
-A university-level course on **Quantum Computing** and **Quantum Information Science** that incorporates [IBM Q Experience](https://quantumexperience.ng.bluemix.net/qx/experience) and [QISKit](https://www.qiskit.org/). This course is adequate for general audiences without prior knowledge on Quantum Mechanics and Quantum Computing (please read to [prior knowledge](#prior-knowledge) before starting) and has an estimated duration of **10 weeks at 2h/week + 2h exercises, when applicable**.
+A university-level course on **Quantum Computing** and **Quantum Information Science** that incorporates [IBM Q Experience](https://quantumexperience.ng.bluemix.net/qx/experience) and [QISKit](https://www.qiskit.org/). This course is adequate for general audiences without prior knowledge on Quantum Mechanics and Quantum Computing (please read to [prior knowledge](#prior-knowledge) before starting) and has an estimated duration of **10 weeks at 2h/week (usually 1h theory + 1h practice)**.
 
 This course is Open-source and fit for both individual learning as well as to be used by teachers, professors and lecturers in their own classes.
 
@@ -36,3 +36,11 @@ After completing this course, students should be able to:
  * Understand ...
  * Leverage QISKit for Quantum research and development
  * ...
+
+## Working with PDF slides
+Each `.pdf` file for slides may have two versions `NAME.pdf` and `NAME_animated.pdf`. The first ignores animations (by replacing the document class in any `.tex` file for `\documentclass[handout]{beamer}`) and the second contains animations.
+
+Animated slides will only work with an external program, I advise [dannyedel/dspdfviewer](https://github.com/dannyedel/dspdfviewer/releases) which also has dual screen and timer functionality.
+
+## Compiling LaTeX files
+To achieve this use any LaTeX compiler of your choice, if you have [pdflatex](https://www.tug.org/applications/pdftex/) you can simply do `pdflatex week_XX.tex`.
