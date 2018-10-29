@@ -1,6 +1,7 @@
 # Week 0 - Hello Quantum World
 
 ## Topics
+ * Motivation
  * Classical vs Quantum Physiscs
  * Nomenclature
  * Superposition principle
