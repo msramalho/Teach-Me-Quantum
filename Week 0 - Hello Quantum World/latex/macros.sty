@@ -1,0 +1,46 @@
+\ProvidesPackage{macros}[2018 My own macros]
+
+
+\usepackage{braket} % bra-ket notation
+\usepackage{xargs} % custom new commands
+\usepackage{xspace} % add xspace after new command to auto insert space
+
+
+
+% braket shorthands
+\newcommandx{\superpos}[3][1=\textual{\psi},2=0,3=1]{\ket {#1} = \textual{\alpha} \ket{#2} + \textual{\beta} \ket{#3}}
+\newcommand{\plusminus}[1][\psi]{\superpos[#1][-][+]}
+\newcommand{\pagenumber}{\raggedleft\vfill\scriptsize\insertframenumber/\inserttotalframenumber}
+\newcommand{\speedoflight}{3 \times 10^{8} m/s}
+
+% short shorthands
+\newcommand{\q}{Quantum\xspace}
+\newcommand{\qa}{Quantum Algorithms\xspace}
+\newcommand{\qct}{Quantum Circuit\xspace}
+\newcommand{\qcts}{Quantum Circuits\xspace}
+\newcommand{\qc}{Quantum Computing\xspace}
+\newcommand{\qi}{Quantum Information\xspace}
+\newcommand{\qm}{Quantum Mechanics\xspace}
+\newcommand{\qp}{Quantum Physics\xspace}
+\newcommand{\qw}{Quantum World\xspace}
+\newcommand{\cl}{Classical\xspace}
+\newcommand{\cc}{Classical Computing\xspace}
+\newcommand{\cm}{Classical Mechanics\xspace}
+\newcommand{\cp}{Classical Physics\xspace}
+\newcommand{\qk}{Qiskit\xspace}
+\newcommand{\ibmq}{IBM Q\xspace}
+\newcommand{\ibmqe}{IBM Q Experience\xspace}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% quotations
+% src: https://tex.stackexchange.com/a/53380/126771
+\newcommand{\@chapapp}{\relax}
+\makeatletter
+\renewcommand{\@chapapp}{}
+\newenvironment{chapquote}[2][2em]
+  {\setlength{\@tempdima}{#1}
+   \def\chapquote@author{#2}
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax
+   \itshape}
+  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+\makeatother
