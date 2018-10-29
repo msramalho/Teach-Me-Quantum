@@ -7,6 +7,7 @@
  * Superposition principle
  * Measurement of Quantum Systems
  * The Postulates of Quantum Mechanics
+ 
 ## Goals
 
 ## Expected Duration
