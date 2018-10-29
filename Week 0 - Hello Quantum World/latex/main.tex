@@ -1,0 +1,162 @@
+\documentclass[aspectratio=43]{beamer}
+% \documentclass[handout]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{tikz} % drawings
+\usepackage{animate} % animations
+\usepackage{hyperref}
+\usepackage{macros}
+
+\usetikzlibrary{positioning, arrows}
+
+\graphicspath{{img/}} % add the img folder to graphics path
+
+\title{Hello \qw}
+\date{November, 2018}
+\author[Ramalho]{Miguel Sozinho Ramalho}
+% \institution[FEUP]{Faculty of Engineering of the University of Porto}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% THEME
+\usetheme{material}
+\useLightTheme
+\usePrimaryTeal
+\useAccentGreen
+
+\usepackage{pgfpages}
+% \setbeameroption{show notes}
+% \setbeameroption{show notes on second screen=right}
+
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+
+\begin{frame}{Table of contents}
+	\begin{card}
+		\tableofcontents
+	\end{card}
+\end{frame}
+
+% Topics
+% Theory
+% Exercises explanation
+% Conclusion
+% References and additional sources
+
+\section{Motivation}
+\begin{frame}{Motivation}
+\begin{card}[Why]
+    \begin{chapquote}[2pt]{\href{https://en.wikipedia.org/wiki/Seth_Lloyd}{Seth Lloyd}}
+        ``Classical computation is like a solo voice - one line of pure tones succeeding each other. Quantum computation is like a symphony - many lines of tones interfering with one another.''
+    \end{chapquote}
+\end{card}
+
+\pagenumber
+\end{frame}
+
+\begin{frame}{Motivation}
+\begin{card}[How]
+    \qc can be seen as leveraging the phenomena that happen at the atomic and subatomic levels - in the \qw\xspace- to produce computations that, ultimately, surpass \cc.
+\end{card}
+\pagenumber
+\end{frame}
+
+\begin{frame}{About this course}
+\begin{card}
+    This course is suited for beginners in \qm and \qc. If you are already familiar with the concepts of a given week, you are encouraged to move forward on the course. 
+    
+    This course brings novelty in that it focuses on \textbf{learning by doing}, and that is why you will also learn about \qk and \ibmqe.
+\end{card}
+\pagenumber
+\end{frame}
+
+\begin{frame}{About this course - Study plan}
+\begin{card}
+    \begin{itemize}
+        \item \qm 101
+        \item \qk and \ibmq
+        \item \qi
+        \item Designing \qcts
+        \item \qa
+        \item \qc applications
+        \item \q Computers - state of the art
+        \item History, implications and ethics
+    \end{itemize}
+\end{card}
+\pagenumber
+\end{frame}
+
+\section{\qp vs \cp}
+
+\begin{frame}{\cp}
+\begin{card}
+    \cp (also \cm) describes the world \textit{as we see it}, in its macro level. Some of its properties are:
+    \begin{description}
+        \item[size] objects with $size \gtrsim 1nm\ (10^{-9}m)$
+        \item[speed] objects of $speed \lesssim \speedoflight$
+        \item[causality] knowledge of the past allows calculation of the future (and \textit{vice versa})
+    \end{description}
+\end{card}
+\pagenumber
+\end{frame}
+
+
+\begin{frame}{\qp}
+\begin{card}
+    \qp (also \qm) describes the world \textit{as we see it}, in its macro level. Some of its properties are:
+    \begin{description}
+        \item[size] objects with $size \lesssim 1nm$
+        \item[speed] objects of $speed \lesssim \speedoflight$
+        \item[causality] knowledge of the past allows calculation of the future (and vice-versa)
+    \end{description}
+\end{card}
+\pagenumber
+\end{frame}
+
+\begin{frame}{\qp}
+\begin{card}[The kingdoms of \cl and \qm]
+    \centering\cardImg{classical_vs_quantum_dimensions.png}{\textwidth}
+\end{card}
+\pagenumber
+\end{frame}
+
+
+
+\section{References}
+\begin{frame}{References}
+\begin{card}
+    \begin{itemize}
+        \item \href{https://www.goodreads.com/book/show/331680.Programming_the_Universe}{Programming the Universe: A Quantum Computer Scientist Takes on the Cosmos}
+    \end{itemize}
+\end{card}
+\end{frame}
+
+
+
+\begin{frame}
+	\begin{equation}
+	    \superpos[\delta]
+	\end{equation}
+	\begin{equation}
+		\superpos[\phi][-][+]
+	\end{equation}
+	\begin{equation}
+		\plusminus
+	\end{equation}
+	\par
+\end{frame}
+
+\begin{frame}
+	\begin{card}
+		Material Design theme is a theme for Beamer inspired by Google's Material Design. \\[5mm]
+		This manual only covers the theme itself, for more information on Material Design go to:
+		\\\url{https://material.io}
+	\end{card}
+	\note[item]{Thank the audience for being awake.}
+\end{frame}
+
+
+\end{document}
