@@ -7,9 +7,9 @@ This course is Open-source and fit for both individual learning as well as to be
 ## Course Overview
 
  * 📁 [Week 0 - Hello Quantum World](Week%200%20-%20Hello%20Quantum%20World)
-     * 📖 [Slides](Week%200%20-%20Hello%20Quantum%20World/slides.pdf)*
+     * 📖 [Slides](Week%200%20-%20Hello%20Quantum%20World/slides.pdf)
  * 📁 Week 1 - Quantum Information
-     * 📖 [Slides]()*
+     * 📖 [Slides]()
      * 📁 [Exercises]()
      * 📁 [Solutions]()
  * 📁 Week 2 - Quantum Manipulation
@@ -22,8 +22,6 @@ This course is Open-source and fit for both individual learning as well as to be
  * 📁 Week 1 - Quantum Cryptography
  * 📁 Week 9 - Quantum Computers
  * 📁 Week 10 - Quantum History and Implications
-
-\* Slides include 📋 Speaker Notes
 
 ## Prior Knowledge
 Students of this course are expected to be familiar with:
