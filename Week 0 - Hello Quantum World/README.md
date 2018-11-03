@@ -11,8 +11,8 @@
 
 ## Expected Duration
 
- * [PDF slides]()
- * [slides src]() Latex files and image resources used in the presentation (useful for PR on slide typos and such)
+ * [PDF slides](slides.pdf)
+ * [slides src](latex/) Latex files and image resources used in the presentation (useful for PR on slide typos and such)
 
 
 ## Sources
