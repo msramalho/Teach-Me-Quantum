@@ -4,9 +4,8 @@
  * Motivation
  * Classical vs Quantum Physiscs
  * Nomenclature
- * Superposition principle
- * Measurement of Quantum Systems
- * The Postulates of Quantum Mechanics
+ * Superposition Principle
+ * Quantum Measurement
  
 ## Goals
 
