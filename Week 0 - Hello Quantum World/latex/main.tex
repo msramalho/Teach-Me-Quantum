@@ -66,9 +66,11 @@
 
 \begin{frame}{About this course}
 \begin{card}
-    This course is suited for beginners in \qm and \qc. If you are already familiar with the concepts of a given week, you are encouraged to move forward on the course. 
+    This course is suited for beginners in \qm and \qc. If you are already familiar with the concepts of a given week, you are encouraged to move forward in the course. 
     
     This course brings novelty in that it focuses on \textbf{learning by doing}, and that is why you will also learn about \qk and \ibmqe.
+    
+    The author believes both that learning should be fun and that derision is a wonderful attention gripper, so humour will be used as the powerful tool that it is.
 \end{card}
 \pagenumber
 \end{frame}
@@ -93,7 +95,7 @@
 
 \begin{frame}{\cp}
 \begin{card}
-    \cp (also \cm) describes the world \textit{as we see it}, in its macro level. Some of its properties are:
+    \cp (also \cm) describes the world \textit{as we see it}, in its macro level. Some of its properties:
     \begin{description}
         \item[size] objects with $size \gtrsim 1nm\ (10^{-9}m)$
         \item[speed] objects of $speed \lesssim \speedoflight$
@@ -106,7 +108,7 @@
 
 \begin{frame}{\qp}
 \begin{card}
-    \qp (also \qm) describes the world \textit{as we see it}, in its macro level. Some of its properties are:
+    \qp (also \qm) describes the world \textit{as we see it}, in its macro level. Some of its properties:
     \begin{description}
         \item[size] objects with $size \lesssim 1nm$
         \item[speed] objects of $speed \lesssim \speedoflight$
@@ -116,47 +118,80 @@
 \pagenumber
 \end{frame}
 
-\begin{frame}{\qp}
-\begin{card}[The kingdoms of \cl and \qm]
+\begin{frame}{The kingdoms of \cl and \qm}
+\begin{card}
     \centering\cardImg{classical_vs_quantum_dimensions.png}{\textwidth}
 \end{card}
 \pagenumber
 \end{frame}
 
+\section{Principles of \qm}
+\subsubsection{\qsp}
+\begin{frame}{\qsp}
+    \begin{card}
+        A \q state (of a particle) can be considered as being composed by more than one different states, simultaneously. It is not in state A \textbf{or} B, it is in state A \textbf{and} state B, at the same time. This defies classical views of the world, where two things are never true at the same time and requires some mental effort!\\
+        The state is, therefore, in a kind of superposition.
+    \end{card}
+\end{frame}
 
+\begin{frame}{\qsp - Schrödinger's cat}
+    \textbf{Thought experiment:} Imagine a cat locked inside a box, along with a poison releasing mechanism. The mechanism has a 50\% chance of having been activated at the time the box is about to be opened. At that moment, we cannot be sure of the cat's living state. Perhaps, we should assume the cat is both dead and alive, at the same time. With each state having the same probability.
+    \begin{center}
+	    \cardImg{img/cat.png}{0.5\textwidth}
+    \end{center}
+    \begin{center}
+        To worlds, inside one.
+    \end{center}
+\end{frame}
+
+
+\begin{frame}{\qsp}
+    \begin{cardTiny}
+        Formally, such states are represented using the \textbf{Ket notation} (as defined by \textit{Paul Dirac}). State 0 would be \ket{0}. 
+    \end{cardTiny}
+    \begin{cardTiny}
+        \begin{multicols}{2}
+    		Consider the electron of a Hydrogen atom, orbiting around the nucleus, with only two (simplification) possible energy states. As this is a \q particle, these energy states are quantized, that is, they take only discrete (quantified) values. 
+    		\centering
+    		\includegraphics[width=0.4\textwidth]{hydrogen}
+	    \end{multicols}
+    \end{cardTiny}
+\end{frame}
+
+\begin{frame}{\qsp}
+    \begin{card}
+        When we have no evidence of the electron's state, we assume that it is in a superposition of both positions. This \qsp $\ket{\delta}$ is written as:
+	\begin{equation*}
+	    \superpos[\delta]
+	\end{equation*}
+    \end{card}
+    \begin{cardTiny}
+        $\alpha$ and $\beta$ represent how likely each of the two states is. These are complex numbers such that $\sqrt{|\alpha|^2 + |\beta|^2} = 1$. 
+    \end{cardTiny}
+\end{frame}
+
+
+\subsubsection{\qmt}
+\begin{frame}{\qmt}
+    \begin{cardTiny}
+        From a pragmatic perspective, what happens when we open the box and look at the cat? From that moment on, only one state remains, either death \textbf{or} life. And we cannot close the box again and expect a different outcome.
+    \end{cardTiny}
+    \begin{cardTiny}
+        \centering\textit{The cat is out of the box.}
+    \end{cardTiny}
+    \begin{cardTiny}
+        A \textbf{Measurement} causes the system to stabilise, in a non-reversible way. When we perform a measurement  on the electron's state (let this process be a technicality, for now), we get $\ket{0}$ \textbf{or} $\ket{1}$. If we repeat the measurement, the result will be the same, \textbf{always}. Why? We don't know :)
+    \end{cardTiny}
+\end{frame}
 
 \section{References}
-\begin{frame}{References}
+\begin{frame}{Where to learn more?}
 \begin{card}
     \begin{itemize}
+        \item \href{https://www.khanacademy.org/science/physics/quantum-physics/quantum-numbers-and-orbitals/a/the-quantum-mechanical-model-of-the-atom}{Khan Academy, The quantum mechanical model of the atom}
         \item \href{https://www.goodreads.com/book/show/331680.Programming_the_Universe}{Programming the Universe: A Quantum Computer Scientist Takes on the Cosmos}
+        \item \href{https://www.goodreads.com/book/show/260142.The_Principles_of_Quantum_Mechanics}{The Principles of Quantum Mechanics, \textit{Paul Dirac}}
     \end{itemize}
 \end{card}
 \end{frame}
-
-
-
-\begin{frame}
-	\begin{equation}
-	    \superpos[\delta]
-	\end{equation}
-	\begin{equation}
-		\superpos[\phi][-][+]
-	\end{equation}
-	\begin{equation}
-		\plusminus
-	\end{equation}
-	\par
-\end{frame}
-
-\begin{frame}
-	\begin{card}
-		Material Design theme is a theme for Beamer inspired by Google's Material Design. \\[5mm]
-		This manual only covers the theme itself, for more information on Material Design go to:
-		\\\url{https://material.io}
-	\end{card}
-	\note[item]{Thank the audience for being awake.}
-\end{frame}
-
-
 \end{document}
