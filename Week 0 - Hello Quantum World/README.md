@@ -7,13 +7,10 @@
  * Superposition Principle
  * Quantum Measurement
  
-## Goals
-
-## Expected Duration
-
+## Resources
  * [PDF slides](slides.pdf)
  * [slides src](latex/) Latex files and image resources used in the presentation (useful for PR on slide typos and such)
 
 
-## Sources
+## Extra sources
  * [SUPPLEMENTARY NOTES ON DIRAC NOTATION, QUANTUM STATES](http://web.mit.edu/8.05/handouts/jaffe1.pdf)
