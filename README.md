@@ -7,10 +7,11 @@ This course is Open-source and fit for both individual learning as well as to be
 ## Course Overview
 
  * 📁 [Week 0 - Hello Quantum World](Week%200%20-%20Hello%20Quantum%20World)
+     * 📖 [Slides](Week%200%20-%20Hello%20Quantum%20World/slides.pdf)*
+ * 📁 Week 1 - Quantum Information
      * 📖 [Slides]()*
      * 📁 [Exercises]()
      * 📁 [Solutions]()
- * 📁 Week 1 - Quantum Information
  * 📁 Week 2 - Quantum Manipulation
  * 📁 Week 3 - Quantum Circuits
  * 📁 Week 4 - Quantum Algorithms
