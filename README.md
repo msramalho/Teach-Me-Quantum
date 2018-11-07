@@ -8,7 +8,7 @@ This course is Open-source and fit for both individual learning as well as to be
 
  * 📁 [Week 0 - Hello Quantum World](Week%200%20-%20Hello%20Quantum%20World)
      * 📖 [Slides](Week%200%20-%20Hello%20Quantum%20World/slides.pdf)
- * 📁 [Week 1 - Quantum Information](Week%201%20-%20Quantum%20Tools)
+ * 📁 [Week 1 - Quantum Tools](Week%201%20-%20Quantum%20Tools)
      * 📖 [Slides](Week%201%20-%20Quantum%20Tools/slides.pdf)
      * 📁 [Exercises](Week%201%20-%20Quantum%20Tools/exercises)
  * 📁 Week 2 - Quantum Information
