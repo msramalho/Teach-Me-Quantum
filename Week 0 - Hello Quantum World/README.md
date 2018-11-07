@@ -1,11 +1,11 @@
 # Week 0 - Hello Quantum World
 
-## Topics
  * Motivation
  * Classical vs Quantum Physiscs
  * Nomenclature
  * Superposition Principle
  * Quantum Measurement
+ * Why Quantum Computing, anyway?
  
 ## Resources
  * [PDF slides](slides.pdf)
