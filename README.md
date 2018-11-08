@@ -29,8 +29,7 @@ This course is Open-source and fit for both individual learning as well as to be
 Students of this course are expected to be familiar with:
  * [Python](https://www.python.org/) language
  * [Jupyter](http://jupyter.org/) Notebook environment
- * Big O notation
- * ...
+ * Linear Algebra basis, such as matrix multiplication
 
 ## Learning Goals
 After completing this course, students should be able to:
