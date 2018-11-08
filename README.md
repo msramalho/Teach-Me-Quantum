@@ -11,25 +11,25 @@ This course is Open-source and fit for both individual learning as well as to be
  * 📁 [Week 1 - Quantum Tools](Week%201%20-%20Quantum%20Tools)
      * 📖 [Slides](Week%201%20-%20Quantum%20Tools/slides.pdf)
      * 📁 [Exercises](Week%201%20-%20Quantum%20Tools/exercises)
- * 📁 Week 2 - Quantum Information
+ * 📁 Week 2 - Quantum Information Science
      * 📖 [Slides]()
      * 📁 [Exercises]()
      * 📁 [Solutions]()
- * 📁 Week 3 - Quantum Manipulation
+ * 📁 Week 3 - Quantum Gates
  * 📁 Week 4 - Quantum Circuits
- * 📁 Week 5 - Quantum Algorithms
- * 📁 Week 6 - ____________
- * 📁 Week 7 - ____________
- * 📁 Week 8 - ____________
- * 📁 Week 1 - Quantum Cryptography
- * 📁 Week 9 - Quantum Computers
- * 📁 Week 10 - Quantum History and Implications
+ * 📁 Week 5 - Quantum Algorithms (Deutsch)
+ * 📁 Week 5 - Quantum Algorithms (Quantum Fourier Transform - Shor) [Cryptography]
+ * 📁 Week 6 - Quantum Algorithms (Amplitude Amplification - Groover)
+ * 📁 Week 7 - Quantum Algorithms (Adiabatic Quantum Computation - Farhi _et al._)
+ * 📁 Week 8 - Quantum Project
+ * 📁 Week 9 - Quantum Cryptography
+ * 📁 Week 10 - Quantum Computers, History and Implications
 
 ## Prior Knowledge
 Students of this course are expected to be familiar with:
  * [Python](https://www.python.org/) language
  * [Jupyter](http://jupyter.org/) Notebook environment
- * Linear Algebra basis, such as matrix multiplication
+ * Some linear algebra, such as matrix multiplication
 
 ## Learning Goals
 After completing this course, students should be able to:
