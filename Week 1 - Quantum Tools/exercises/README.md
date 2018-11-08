@@ -1,6 +1,6 @@
 # Overview
 
-For this week, there are some boring tasks
+For this week, there are some boring tasks:
  * Install Python (and pip)
  * Install Jupyter
  * Install QSKit
