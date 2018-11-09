@@ -11,9 +11,9 @@ This course is Open-source and fit for both individual learning as well as to be
  * 📁 [Week 1 - Quantum Tools](Week%201%20-%20Quantum%20Tools)
      * 📖 [Slides](Week%201%20-%20Quantum%20Tools/slides.pdf)
      * 📁 [Exercises](Week%201%20-%20Quantum%20Tools/exercises)
- * 📁 Week 2 - Quantum Information Science
-     * 📖 [Slides]()
-     * 📁 [Exercises]()
+ * 📁 [Week 2 - Quantum Information Science](Week%202%20-%20Quantum%20Information%20Science)
+     * 📖 [Slides](Week%202%20-%20Quantum%20Information%20Science/slides.pdf)
+     * 📁 [Exercises](Week%202%20-%20Quantum%20Information%20Science/exercises)
      * 📁 [Solutions]()
  * 📁 Week 3 - Quantum Gates
  * 📁 Week 4 - Quantum Circuits
