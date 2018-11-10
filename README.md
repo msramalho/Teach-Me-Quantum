@@ -29,7 +29,7 @@ This course is Open-source and fit for both individual learning as well as to be
 Students of this course are expected to be familiar with (this can be done while going through the course):
  * [Python](https://www.python.org/) language
  * [Jupyter](http://jupyter.org/) Notebook environment
- * Linear algebra basics, such as: inner and outer products, eigenvalues, norms, transpose, adjoints(complex conjugates), tensor product, ...
+ * Linear algebra basics, such as: inner and outer products, eigenvalues, norms, transpose, adjoints (complex conjugates), tensor product, ...
 
 ## Learning Goals
 After completing this course, students should be able to:
