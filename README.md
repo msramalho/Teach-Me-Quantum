@@ -26,7 +26,7 @@ This course is Open-source and fit for both individual learning as well as to be
  * 📁 Week 10 - Quantum Computers, History and Implications
 
 ## Prior Knowledge
-Students of this course are expected to be familiar with:
+Students of this course are expected to be familiar with (this can be done while going through the course):
  * [Python](https://www.python.org/) language
  * [Jupyter](http://jupyter.org/) Notebook environment
  * Some linear algebra, such as matrix multiplication
