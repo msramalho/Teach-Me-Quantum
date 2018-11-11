@@ -14,8 +14,9 @@ This course is Open-source and fit for both individual learning as well as to be
  * 📁 [Week 2 - Quantum Information Science](Week%202%20-%20Quantum%20Information%20Science)
      * 📖 [Slides](Week%202%20-%20Quantum%20Information%20Science/slides.pdf)
      * 📁 [Exercises](Week%202%20-%20Quantum%20Information%20Science/exercises)
-     * 📁 [Solutions]()
- * 📁 Week 3 - Quantum Gates
+ * 📁 [Week 3 - Quantum Gates](Week%203%20-%20Quantum%20Gates)
+     * 📖 [Slides](Week%203%20-%20Quantum%20Gates/slides.pdf)
+     * 📁 [Exercises](Week%203%20-%20Quantum%20Gates/exercises)
  * 📁 Week 4 - Quantum Circuits
  * 📁 Week 5 - Quantum Algorithms (Deutsch)
  * 📁 Week 5 - Quantum Algorithms (Quantum Fourier Transform - Shor) [Cryptography]
