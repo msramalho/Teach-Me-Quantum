@@ -17,7 +17,7 @@ This course is Open-source and fit for both individual learning as well as to be
  * 📁 [Week 3 - Quantum Gates](Week%203%20-%20Quantum%20Gates)
      * 📖 [Slides](Week%203%20-%20Quantum%20Gates/slides.pdf)
      * 📁 [Exercises](Week%203%20-%20Quantum%20Gates/exercises)
- * 📁 Week 4 - Quantum Circuits
+ * 📁 Week 4 - Quantum Facts
  * 📁 Week 5 - Quantum Algorithms (Deutsch)
  * 📁 Week 5 - Quantum Algorithms (Quantum Fourier Transform - Shor) [Cryptography]
  * 📁 Week 6 - Quantum Algorithms (Amplitude Amplification - Groover)
