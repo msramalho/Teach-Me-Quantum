@@ -45,3 +45,6 @@ Animated slides will only work with an external program, I advise [dannyedel/dsp
 
 ## Compiling LaTeX files
 To achieve this use any LaTeX compiler of your choice, if you have [pdflatex](https://www.tug.org/applications/pdftex/) you can simply do `pdflatex week_XX.tex`.
+
+## Aditional notes
+Each week's slides has a particular theme, that is to help students distinguish between them and strengthen the learning process by fostering association.
