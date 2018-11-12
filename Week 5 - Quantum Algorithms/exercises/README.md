@@ -1,4 +1,5 @@
+
 # Exercises
- * Pen and paper exercises for basis conversion using single qubit gates [slides](slides.pdf)
- * [Jupyter notebook with exercises](w4_01.ipynb): implementing and understanding entanglement, observing entanglement in lab settings
- * [Jupyter notebook with solutions](w4_01_s.ipynb)
+ * Pen and paper verificatio of the math in the description of Deutsch's Algorithm [slides](slides.pdf)
+ * [Jupyter notebook with exercises](w5_01.ipynb): implementing Deutsch's Algorithm in QISKit
+ * [Jupyter notebook with solutions](w5_01_s.ipynb)
