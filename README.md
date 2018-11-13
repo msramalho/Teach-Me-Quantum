@@ -1,6 +1,6 @@
 <h1 align="center">Teach Me Quantum</h1>
 
-A university-level course on **Quantum Computing** and **Quantum Information Science** that incorporates [IBM Q Experience](https://quantumexperience.ng.bluemix.net/qx/experience) and [Qiskit](https://www.qiskit.org/). This course is adequate for general audiences without prior knowledge on Quantum Mechanics and Quantum Computing (please read to [prior knowledge](#prior-knowledge) before starting) and has an estimated duration of **10 weeks at 2h/week (usually 1h theory + 1h practice)**.
+A university-level course on **Quantum Computing** and **Quantum Information Science** that incorporates [IBM Q Experience](https://quantumexperience.ng.bluemix.net/qx/experience) and [Qiskit](https://www.qiskit.org/). This course is adequate for general audiences without prior knowledge on Quantum Mechanics and Quantum Computing (please read to [prior knowledge](#prior-knowledge) before starting) and has an estimated duration of **10 weeks at 3h/week** (usually 1h theory + 2h practice, except for weeks 0 (1h) and 1 (2h)) estimated total time: **25h to 30h**.
 
 This course is Open-source and fit for both individual learning as well as to be used by teachers, professors and lecturers in their own classes.
 
@@ -23,10 +23,10 @@ This course is Open-source and fit for both individual learning as well as to be
  * 📁 [Week 5 - Quantum Algorithms](Week%205%20-%20Quantum%20Algorithms) (Deutsch)
      * 📖 [Slides](Week%205%20-%20Quantum%20Algorithms/slides.pdf)
      * 📁 [Exercises](Week%205%20-%20Quantum%20Algorithms/exercises)
- * 📁 Week 6 - Quantum Algorithms (Quantum Fourier Transform - Shor) [Cryptography]
- * 📁 Week 7 - Quantum Algorithms (Amplitude Amplification - Groover)
- * 📁 Week 8 - Quantum Algorithms (Adiabatic Quantum Computation - Farhi _et al._)
- * 📁 Week 9 - State of the Quantum Art, History and Final considerations
+ * 📁 Week 6 - Quantum Algorithms (Simon)
+ * 📁 Week 7 - Quantum Algorithms (Quantum Fourier Transform - Shor) [Cryptography]
+ * 📁 Week 8 - Quantum Algorithms (Amplitude Amplification - Groover)
+ * 📁 Week 9 - State of the Quantum Art, Adiabatic Quantum Computation, History and Final considerations
 
 ## Prior Knowledge
 Students of this course are expected to be familiar with (this can be done while going through the course):
