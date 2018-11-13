@@ -22,10 +22,10 @@ This course is Open-source and fit for both individual learning as well as to be
  * 📁 [Week 4 - Quantum Facts](Week%204%20-%20Quantum%20Facts)
      * 📖 [Slides](Week%204%20-%20Quantum%20Facts/slides.pdf)
      * 📁 [Exercises](Week%204%20-%20Quantum%20Facts/exercises)
- * 📁 [Week 5 - Quantum Algorithms](Week%205%20-%20Quantum%20Algorithms) (Deutsch)
+ * 📁 [Week 5 - Quantum Algorithms](Week%205%20-%20Quantum%20Algorithms) (Deutsch's algorithm)
      * 📖 [Slides](Week%205%20-%20Quantum%20Algorithms/slides.pdf)
      * 📁 [Exercises](Week%205%20-%20Quantum%20Algorithms/exercises)
- * 📁 [Week 6 - Quantum Search](Week%206%20-%20Quantum%20Search) (Grover)
+ * 📁 [Week 6 - Quantum Search](Week%206%20-%20Quantum%20Search) (Grover's algorithm)
      * 📖 [Slides](Week%206%20-%20Quantum%20Search/slides.pdf)
      * 📁 [Exercises](Week%206%20-%20Quantum%20Search/exercises)
  * 📁 Week 7 - Quantum Algorithms (Quantum Fourier Transform - Shor)  [Cryptography]
