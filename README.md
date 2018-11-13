@@ -52,3 +52,5 @@ To achieve this use any LaTeX compiler of your choice, if you have [pdflatex](ht
 
 ## Aditional notes
 Each week's slides has a particular theme, that is to help students distinguish between them and strengthen the learning process by fostering association.
+
+<p align="center"><img src="http://assets.amuniversal.com/7c4d9f70a05b012f2fe600163e41dd5b"></p>
