@@ -25,9 +25,11 @@ This course is Open-source and fit for both individual learning as well as to be
  * 📁 [Week 5 - Quantum Algorithms](Week%205%20-%20Quantum%20Algorithms) (Deutsch)
      * 📖 [Slides](Week%205%20-%20Quantum%20Algorithms/slides.pdf)
      * 📁 [Exercises](Week%205%20-%20Quantum%20Algorithms/exercises)
- * 📁 Week 6 - Quantum Algorithms (Simon)
- * 📁 Week 7 - Quantum Algorithms (Quantum Fourier Transform - Shor) [Cryptography]
- * 📁 Week 8 - Quantum Algorithms (Amplitude Amplification - Groover)
+ * 📁 [Week 6 - Quantum Search](Week%206%20-%20Quantum%20Search) (Grover)
+     * 📖 [Slides](Week%206%20-%20Quantum%20Search/slides.pdf)
+     * 📁 [Exercises](Week%206%20-%20Quantum%20Search/exercises)
+ * 📁 Week 7 - Quantum Algorithms (Quantum Fourier Transform - Shor)  [Cryptography]
+ * 📁 Week 8 - High Level Quantum Programming (Machine Learning, Chemestry, ... in qiskit-aqua)
  * 📁 Week 9 - State of the Quantum Art, Adiabatic Quantum Computation, History and Final considerations
 
 ## Prior Knowledge
@@ -38,8 +40,13 @@ Students of this course are expected to be familiar with (this can be done while
 
 ## Learning Goals
 After completing this course, students should be able to:
- * Understand ...
- * Leverage QISKit for Quantum research and development
+ * Understand the basics of Quantum Mechanics
+ * Know how a computing model can be built aroun Quantum Mechanics
+ * Understand are the advantages, disadvantages and implications of Quantum Computing
+ * Leverage Quantum Information Science towards personal problems
+ * Leverage QISKit towards research and development around the _Quantum World_
+ * Be able to understand the differences between Quantum Simulators and real Quantum Devices (such as those available in IBMQ)
+ * Design and interpret quantum circuits, deploy them on real devices
  * ...
 
 ## Duration
