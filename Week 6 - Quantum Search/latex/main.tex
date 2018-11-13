@@ -28,7 +28,7 @@
 \section{Introduction}
 \begin{frame}{Introduction}
     \begin{card}
-        This week we will be studying a famous and pragmatic quantum algorithm to perform a search, the \textbf{\gvsa}. We will look through its purpose, how it compares with classical search strategies that solve the same problems. The algorithm will be studied from a more abstract point of view, namely in understanding \textbf{\phiv} and \textbf{\iatm}. This week's exercises will focus more on the implementation details.
+        This week we will be studying a famous and pragmatic quantum algorithm to perform a search, the \textbf{\gvsa}. We will look through its purpose, how it compares with classical search strategies that solve the same problems. The algorithm will be studied from a more abstract point of view, namely in understanding \textbf{\aamp} (\textbf{\phiv} + \textbf{\iatm}). This week's exercises will focus more on the implementation details.
     \end{card}
 \pagenumber
 \end{frame}
@@ -76,7 +76,7 @@
 \section{\gvsa} % overview of steps, comparison of bigO
 \begin{frame}{\gvsa}
     \begin{card}
-        Luckily for the world, Dr. \href{https://en.wikipedia.org/wiki/Lov_Grover}{Lov Grover} devised an algorithm that, instead of $N$ steps to find a solution, requires $\sqrt{N}$. This is a \href{https://arxiv.org/abs/quant-ph/9711070}{it is optimal} (no better speed up is possible for this problem). 
+        Luckily for the world, Dr. \href{https://en.wikipedia.org/wiki/Lov_Grover}{Lov Grover} devised an algorithm that, instead of $N$ steps to find a solution, requires $\sqrt{N}$. This is a \href{https://arxiv.org/abs/quant-ph/9711070}{it is optimal} (no better speed up is possible for this problem).
     \end{card}
     \begin{card}
         The algorithm makes use of two very important phenomenon that can be implemented in a quantum computer:\begin{itemize}
@@ -132,7 +132,7 @@
 
 \begin{frame}{Inversion about the Mean}
     \begin{cardTiny}
-        Why do we do this, you may ask. To answer this, consider the two steps taken so far: \phiv and then \iotm. The first one, sets our solution to be a bit more recognizable and the second operation further segregates our result from the rest of the possible states.
+        Why do we do this, you may ask. To answer this, consider the two steps taken so far: \phiv and then \iatm. The first one, sets our solution to be a bit more recognizable and the second operation further segregates our result from the rest of the possible states.
     \end{cardTiny}
     \begin{cardTiny}
         If we keep on doing this two steps, we will segregate the correct answer from the others further and further. The number of times we need to do it to have a guaranteed high probability of having the right answer is $\sqrt{N}$!
@@ -167,7 +167,7 @@
 
 \begin{frame}{\gvsa (why $\sqrt{N}$?)}
     \begin{cardTiny}
-        Finally, we will apply the \iotm ($\mu = \frac{1}{N}\sum_x \alpha_x \ket{x}$):
+        Finally, we will apply the \iatm ($\mu = \frac{1}{N}\sum_x \alpha_x \ket{x}$):
         \begin{equation*}
             \sum_x \alpha_x \ket{x} \rightarrow \sum_x (2\mu - \alpha_x) \ket{x}
         \end{equation*}
@@ -193,12 +193,17 @@
 \pagenumber
 \end{frame}
 
-\begin{frame}{\gvsa}
+\section{\aamp}
+\begin{frame}{\aamp}
     \begin{cardTiny}
-        It should be noted that the amplitude \textbf{cannot increase forever} and will eventually be so large that the mean becomes negative (after \phiv) and the \iotm step is actually \textbf{harming our result}. That is why one should know hen to stop (how many iterations guarantee the minimum desired amplitude).
+        This combination of \phiv and \iatm is called \textbf{\aamp}!
     \end{cardTiny}
     \begin{cardTiny}
-        There you have it, by executing this two-step iteration we can solve a classical problem that had a complexity of $O(N)$ in $O(\sqrt{N})$, it is not an exponential growth (as some quantum algorithms are able to do), but in this case that would have some \href{https://en.wikipedia.org/wiki/P_versus_NP_problem}{very disruptive consequences}. 
+        \small{
+        It should be noted that the amplitude \textbf{cannot increase forever} and will eventually be so large that the mean becomes negative (after \phiv) and the \iatm step is actually \textbf{harming our result}. That is why one should know hen to stop (how many iterations guarantee the minimum desired amplitude).}
+    \end{cardTiny}
+    \begin{cardTiny}
+        There you have it, by executing the \aamp iteration we can solve a classical problem that had a complexity of $O(N)$ in $O(\sqrt{N})$, it is not an exponential growth (as some quantum algorithms are able to do), but in this case that would have some \href{https://en.wikipedia.org/wiki/P_versus_NP_problem}{very disruptive consequences}.
     \end{cardTiny}
 \pagenumber
 \end{frame}
