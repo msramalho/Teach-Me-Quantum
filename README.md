@@ -20,7 +20,9 @@ This course is Open-source and fit for both individual learning as well as to be
  * 📁 [Week 4 - Quantum Facts](Week%204%20-%20Quantum%20Facts)
      * 📖 [Slides](Week%204%20-%20Quantum%20Facts/slides.pdf)
      * 📁 [Exercises](Week%204%20-%20Quantum%20Facts/exercises)
- * 📁 Week 5 - Quantum Algorithms (Deutsch)
+ * 📁 [Week 5 - Quantum Algorithms](Week%205%20-%20Quantum%20Algorithms) (Deutsch)
+     * 📖 [Slides](Week%205%20-%20Quantum%20Algorithms/slides.pdf)
+     * 📁 [Exercises](Week%205%20-%20Quantum%20Algorithms/exercises)
  * 📁 Week 6 - Quantum Algorithms (Quantum Fourier Transform - Shor) [Cryptography]
  * 📁 Week 7 - Quantum Algorithms (Amplitude Amplification - Groover)
  * 📁 Week 8 - Quantum Algorithms (Adiabatic Quantum Computation - Farhi _et al._)
