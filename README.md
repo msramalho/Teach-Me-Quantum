@@ -24,8 +24,7 @@ This course is Open-source and fit for both individual learning as well as to be
  * 📁 Week 6 - Quantum Algorithms (Quantum Fourier Transform - Shor) [Cryptography]
  * 📁 Week 7 - Quantum Algorithms (Amplitude Amplification - Groover)
  * 📁 Week 8 - Quantum Algorithms (Adiabatic Quantum Computation - Farhi _et al._)
- * 📁 Week 9 - Quantum Cryptography
- * 📁 Week 10 - Quantum Computers, History and Implications
+ * 📁 Week 9 - State of the Quantum Art, History and Final considerations
 
 ## Prior Knowledge
 Students of this course are expected to be familiar with (this can be done while going through the course):
