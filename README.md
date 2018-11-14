@@ -28,7 +28,9 @@ This course is Open-source and fit for both individual learning as well as to be
  * 📁 [Week 6 - Quantum Search](Week%206%20-%20Quantum%20Search) (Grover's algorithm)
      * 📖 [Slides](Week%206%20-%20Quantum%20Search/slides.pdf)
      * 📁 [Exercises](Week%206%20-%20Quantum%20Search/exercises)
- * 📁 Week 7 - Quantum Algorithms (Quantum Fourier Transform - Shor)  [Cryptography]
+ * 📁 [Week 7 - Quantum Factorization](Week%207%20-%20Quantum%20Factorization) (Shor's algorithm)
+     * 📖 [Slides](Week%207%20-%20Quantum%20Factorization/slides.pdf)
+     * 📁 [Exercises](Week%207%20-%20Quantum%20Factorization/exercises)
  * 📁 Week 8 - High Level Quantum Programming (Machine Learning, Chemestry, Optimization... in qiskit-aqua)
  * 📁 Week 9 - State of the Quantum Art, Adiabatic Quantum Computation, History and Final considerations
 
