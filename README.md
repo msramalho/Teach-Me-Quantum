@@ -45,13 +45,15 @@ Students of this course are expected to be familiar with (this can be done while
 ## Learning Goals
 After completing this course, students should be able to:
  * Understand the basics of Quantum Mechanics
- * Know how a computing model can be built aroun Quantum Mechanics
- * Understand are the advantages, disadvantages and implications of Quantum Computing
- * Leverage Quantum Information Science towards personal problems
+ * Know how a computing model can be built around Quantum Mechanics
+ * Understand the advantages, disadvantages and implications of Quantum Computing
+ * Undersand Quantum Information Science and how it contrasts with classical information theory
  * Leverage QISKit towards research and development around the _Quantum World_
- * Be able to understand the differences between Quantum Simulators and real Quantum Devices (such as those available in IBMQ)
+ * Understand the empirical differences between Quantum Simulators and real Quantum Devices (such as those available in IBMQ)
  * Design and interpret quantum circuits, deploy them on real devices
- * Understand High Level applications of quantum, namely how to use qiskit-aqua for this purpose
+ * Know and describe a few of the most common quantum algorithms: Deutsch, Grover, Shor
+ * Be able to quickly understand new quantum algorithms based on the same principles: Simon, ...
+ * Understand High Level applications of near-end quantum algorithms, namely how to use qiskit-aqua for solving real world problems
  * ...
 
 ## Duration
