@@ -76,6 +76,10 @@ Animated slides will only work with an external program, I advise [dannyedel/dsp
 To achieve this use any LaTeX compiler of your choice, if you have [pdflatex](https://www.tug.org/applications/pdftex/) you can simply do `pdflatex week_XX.tex`.
 
 ## Aditional notes
-Each week's slides has a particular theme, that is to help students distinguish between them and strengthen the learning process by fostering association.
+Each week's slides has a particular theme, that is to help students distinguish between them and strengthen the learning process by fostering association. Here's an overview of each week's theme:
+<p align="center"><img  width="500px" src="https://i.imgur.com/39Mv9Ra.gif"></p>
+
+## Final remarks
+This was an excelent oportunity to both  teach and learn. I have sought to come up with a methodology of how I wanted my quantum education to have been, hopefully this will help others with similar learning tastes.
 
 <p align="center"><img src="http://assets.amuniversal.com/7c4d9f70a05b012f2fe600163e41dd5b"></p>
