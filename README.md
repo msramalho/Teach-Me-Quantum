@@ -31,7 +31,9 @@ This course is Open-source and fit for both individual learning as well as to be
  * 📁 [Week 7 - Quantum Factorization](Week%207%20-%20Quantum%20Factorization) (Shor's algorithm)
      * 📖 [Slides](Week%207%20-%20Quantum%20Factorization/slides.pdf)
      * 📁 [Exercises](Week%207%20-%20Quantum%20Factorization/exercises)
- * 📁 Week 8 - High Level Quantum Programming (Machine Learning, Chemestry, Optimization... in qiskit-aqua)
+ * 📁 [Week 8 - High Level Quantum Programming](Week%208%20-%20High%20Level%20Quantum%20Programming) (qiskit-aqua)
+     * 📖 [Slides](Week%208%20-%20High%20Level%20Quantum%20Programming/slides.pdf)
+     * 📁 [Exercises](Week%208%20-%20High%20Level%20Quantum%20Programming/exercises)
  * 📁 Week 9 - State of the Quantum Art, Adiabatic Quantum Computation, History and Final considerations
 
 ## Prior Knowledge
@@ -49,6 +51,7 @@ After completing this course, students should be able to:
  * Leverage QISKit towards research and development around the _Quantum World_
  * Be able to understand the differences between Quantum Simulators and real Quantum Devices (such as those available in IBMQ)
  * Design and interpret quantum circuits, deploy them on real devices
+ * Understand High Level applications of quantum, namely how to use qiskit-aqua for this purpose
  * ...
 
 ## Duration
