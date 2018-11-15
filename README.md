@@ -2,7 +2,7 @@
 
 <!-- This course and all its materials can be found at https://github.com/msramalho/Teach-Me-Quantum  where they are constantly updated, subject to open source contributions and community -->
 
-A university-level course on **Quantum Computing** and **Quantum Information Science** that incorporates [IBM Q Experience](https://quantumexperience.ng.bluemix.net/qx/experience) and [Qiskit](https://www.qiskit.org/). This course is adequate for general audiences without prior knowledge on Quantum Mechanics and Quantum Computing (please refer to [prior knowledge](#prior-knowledge) before starting) and has an estimated average duration of **10 weeks at 3h/week** (see [duration](#duration)).
+A university-level course on **Quantum Computing** and **Quantum Information Science** that incorporates [IBM Q Experience](https://quantumexperience.ng.bluemix.net/qx/experience) and [Qiskit](https://www.qiskit.org/). This course is adequate for general audiences without prior knowledge on Quantum Mechanics and Quantum Computing (see [prior knowledge](#prior-knowledge) before starting), has an estimated average duration of **10 weeks at 3h/week** (see [duration](#duration)) and is meant to be the entrypoint into the **Quantum World**.
 
 This course is **Open-source** and fit for both _autodidacticism_ as well as _classroom teaching_: for teachers, professors and lecturers in their own classes. Given the dynamic nature of the topic, any open-source contributions and future improvements are welcome.
 
