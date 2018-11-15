@@ -31,7 +31,7 @@ This course is Open-source and fit for both individual learning as well as to be
  * 📁 [Week 7 - Quantum Factorization](Week%207%20-%20Quantum%20Factorization) (Shor's algorithm)
      * 📖 [Slides](Week%207%20-%20Quantum%20Factorization/slides.pdf)
      * 📁 [Exercises](Week%207%20-%20Quantum%20Factorization/exercises)
- * 📁 [Week 8 - High Level Quantum Programming](Week%208%20-%20High%20Level%20Quantum%20Programming) (Machine Learning, Chemestry, Optimization... in qiskit-aqua)
+ * 📁 [Week 8 - High Level Quantum Programming](Week%208%20-%20High%20Level%20Quantum%20Programming) (qiskit-aqua)
      * 📖 [Slides](Week%208%20-%20High%20Level%20Quantum%20Programming/slides.pdf)
      * 📁 [Exercises](Week%208%20-%20High%20Level%20Quantum%20Programming/exercises)
  * 📁 Week 9 - State of the Quantum Art, Adiabatic Quantum Computation, History and Final considerations
