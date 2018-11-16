@@ -71,7 +71,7 @@ After completing this course, students should be able to:
 
 
 ## How to customize the slides
-#### Materials reuse
+#### Reusing materials
 The materials in this course can be adapted to specific classes, contexts, schools,... to the desire of the educators.
 
 The `author`, `date` and `instute` properties of each presentation is defined in the respective `macros.sty` file (this file is an exact copy for each week). If you want to update global settings for all weeks (like the author, update links colors, update code snippets display, ...) you can use the [`sh replicate_macros.sh`](utils/replicate_macros.sh) (linux) | [`replicate_macros.bat`](utils/replicate_macros.bat) (windows) to replicate the changes from a copy of the file for every week's folder (the source file must be in the [utils](utils/) folder, there is already an updated version of [macros.sty](utils/macros.sty) in there).
@@ -90,11 +90,11 @@ This can also be accomplished by appending the following lines before `\begin{do
 \setbeameroption{show notes on second screen=right}
 ```
 
-To present the slides with **notes** or with **animations** will only work with an external program, I advise [dannyedel/dspdfviewer](https://github.com/dannyedel/dspdfviewer/releases) which also has dual screen and timer functionality.
-
-
 #### Compiling LaTeX files
 To achieve this use any LaTeX compiler of your choice, if you have [pdflatex](https://www.tug.org/applications/pdftex/) you can simply do `pdflatex main.tex` on each week's latex folder.
+
+#### Presenting Slides with Notes and/or animations
+To present the slides with **notes** or with **animations** will only work with an external program, I advise [dannyedel/dspdfviewer](https://github.com/dannyedel/dspdfviewer/releases) which also has dual screen and timer functionality.
 
 ---
 
