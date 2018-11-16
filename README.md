@@ -1,8 +1,9 @@
+<!-- This course and all its materials can be found at https://github.com/msramalho/Teach-Me-Quantum  where they are constantly updated, subject to open source contributions and community -->
 <h1 align="center">Teach Me Quantum</h1>
 
-<!-- This course and all its materials can be found at https://github.com/msramalho/Teach-Me-Quantum  where they are constantly updated, subject to open source contributions and community -->
-
 A university-level course on **Quantum Computing** and **Quantum Information Science** that incorporates [IBM Q Experience](https://quantumexperience.ng.bluemix.net/qx/experience) and [Qiskit](https://www.qiskit.org/). This course is adequate for general audiences without prior knowledge on Quantum Mechanics and Quantum Computing (see [prior knowledge](#prior-knowledge) before starting), has an estimated average duration of **10 weeks at 3h/week** (see [duration](#duration)) and is meant to be the entrypoint into the **Quantum World**.
+
+<p align="center"><img  width="300px" src="https://i.imgur.com/39Mv9Ra.gif"></p>
 
 This course is **Open-source** and appropriate for both _autodidacticism_ as well as _classroom teaching_ by educators, professors and lecturers in their own classes. Given the dynamic nature of the topic, any open-source contributions and future improvements are welcome.
 
@@ -98,8 +99,7 @@ To achieve this use any LaTeX compiler of your choice, if you have [pdflatex](ht
 ---
 
 ## Aditional notes
-Each week's slides has a particular theme, that is to help students distinguish between them and strengthen the learning process by fostering association. Here's an overview of each week's theme:
-<p align="center"><img  width="500px" src="https://i.imgur.com/39Mv9Ra.gif"></p>
+Each week's slides has a particular theme, that is to help students distinguish between them and strengthen the learning process by fostering association. 
 
 ## Final remarks
 This was an excelent oportunity to both  teach and learn. I have sought to come up with a methodology of how I wanted my quantum education to have been, hopefully this will help others with similar learning tastes; if not, well, shift happens...
