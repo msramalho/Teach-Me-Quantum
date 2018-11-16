@@ -49,15 +49,15 @@ After completing this course, students should be able to:
  * Know how a computing model can be built around Quantum Mechanics
  * Understand the advantages, disadvantages and implications of Quantum Computing
  * Undersand Quantum Information Science and how it contrasts with classical information theory
- * Leverage QISKit towards research and development around the _Quantum World_
+ * Leverage QISKit towards research and development in the _Quantum World_
  * Understand the empirical differences between Quantum Simulators and real Quantum Devices (such as those available in IBMQ)
- * Design and interpret quantum circuits, deploy them on real devices
+ * Design, interpret and deploy quantum circuits (simulators and real processors)
  * Know and describe a few of the most common quantum algorithms: Deutsch, Grover, Shor
  * Be able to quickly understand new quantum algorithms based on the same principles: Simon, ...
  * Be able to quickly understand new principles of quantum computing: Adiabatic, ...
- * Understand the impact that the advance of quantum computers can have on the world as we know it.
+ * Understand the impact that the advance of quantum computers can have on the world as we know it
  * Understand High Level applications of near-end quantum algorithms, namely how to use qiskit-aqua for solving real world problems
- * ...
+ * Move on to deeper waters, by exploring according to their heart's desire!
 
 ## Duration
  * Estimated average duration of **10 weeks at 3h/week**
