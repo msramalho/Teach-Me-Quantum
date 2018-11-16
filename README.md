@@ -102,6 +102,6 @@ To achieve this use any LaTeX compiler of your choice, if you have [pdflatex](ht
 Each week's slides has a particular theme, that is to help students distinguish between them and strengthen the learning process by fostering association. 
 
 ## Final remarks
-This was an excelent oportunity to both  teach and learn. I have sought to come up with a methodology of how I wanted my quantum education to have been, hopefully this will help others with similar learning tastes; if not, well, shift happens...
+This was an excelent oportunity to both  teach and learn. I have sought to come up with a methodology of how I wanted my quantum education to have been, hopefully this will help others with similar learning tastes. If not, oh well, shift happens...
 
 <p align="center"><img src="http://assets.amuniversal.com/7c4d9f70a05b012f2fe600163e41dd5b"></p>
