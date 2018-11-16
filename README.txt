@@ -34,7 +34,7 @@ Afterwards, students should be able to:
  * Know how a computing model can be built around Quantum Mechanics
  * Understand the advantages, disadvantages and implications of Quantum Computing
  * Understand Quantum Information Science and how it contrasts with classical information theory
- * Leverage Qiskit towards research and development in the _Quantum World_
+ * Leverage Qiskit towards research and development in the Quantum World
  * Understand the empirical differences between Quantum Simulators and real Quantum Devices (such as those available in IBMQX)
  * Design, interpret and deploy quantum circuits (simulators and real processors)
  * Know and describe a few of the most common quantum algorithms: Deutsch, Grover, Shor
