@@ -8,7 +8,6 @@ This course is adequate for general audiences without prior knowledge on Quantum
 This course is **Open-source** and appropriate for both _autodidacticism_ as well as _classroom teaching_ by educators, professors and lecturers in their own classes. Given the dynamic nature of the topic, any open-source contributions and future improvements are welcome.
 
 ## Course Overview
-
  * Week 0 - Hello Quantum World
  * Week 1 - Quantum Tools
  * Week 2 - Quantum Information Science
@@ -24,7 +23,7 @@ This course is **Open-source** and appropriate for both _autodidacticism_ as wel
 Students of this course are expected to be familiar with (this can be done while going through the course):
  * Python language
  * Jupyter Notebook environment
- * Some linear algebra: inner and outer products, eigenvalues, norms, transpose, adjoints (complex conjugates), tensor product, ...
+ * Some linear algebra
 
 ## Learning Goals
 After completing this course, students should be able to:
@@ -50,7 +49,6 @@ After completing this course, students should be able to:
      * week 1 (1h + 1h = 2h)
      * week 9 (2h + 0h = 2h)
 * Estimated total time: **25h to 30h**.
-
 
 ## Customizing Slides
 Additional instructions for customizing and reusing these slides for other lectures can be found in the README.md file at https://github.com/msramalho/Teach-Me-Quantum
