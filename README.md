@@ -73,7 +73,7 @@ After completing this course, students should be able to:
 #### Materials reuse
 The materials in this course can be adapted to specific classes, contexts, schools,... to the desire of the educators. 
 
-The `author`, `date` and `instute` properties of each presentation is defined in the respective `macros.tex` file (this file is an exact copy for each week). If you want to update global settings for all weeks you can use the `update_macros.sh`(linux)|`update_macros.bat` (windows) to replicate the copy in this folder for every week's folder.
+The `author`, `date` and `instute` properties of each presentation is defined in the respective `macros.tex` file (this file is an exact copy for each week). If you want to update global settings for all weeks (like the author, update links colors, update code snippets display, ...) you can use the [update_macros.sh](utils/update_macros.sh)(linux) | [`update_macros.bat`](utils/update_macros.bat) (windows) to replicate the changes from a copy of the file for every week's folder (the source file must be in the [utils](utils/) folder, there is already an updated version of [macros.tex](utils/macros.tex) in there).
 
 The constraint for using this materials is to replace the `\author[]{}` command by the following command: `\author[LASTNAME]{FIRSTNAME LASTNAME,\\ \scriptsize{based on slides by \textbf{Miguel Sozinho Ramalho}}}` with the update author info.
 
