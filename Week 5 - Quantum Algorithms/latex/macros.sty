@@ -11,6 +11,15 @@
 \let\todox\todo
 \renewcommand\todo[1]{\todox[inline]{#1}}
 
+%%%%%%%%%%%%%%%%% DOCUMENT GLOBAL SETTINGS
+% example for author reusing these slides:
+\author[Ramalho]{Miguel Sozinho Ramalho}
+% \author[LASTNAME]{FIRSTNAME LASTNAME,\\ \scriptsize{based on slides by \textbf{Miguel Sozinho Ramalho}}}
+\institute[FEUP]{Faculty of Engineering of the University of Porto}
+\subject{Quantum Computing}
+\date{November, 2018}
+
+
 % Uncomment for notes on slides
 % \usepackage{pgfpages}
 % \setbeameroption{show notes}
@@ -37,22 +46,30 @@
 % short shorthands
 \newcommand{\qasm}{Qasm\xspace}
 \newcommand{\q}{Quantum\xspace}
-\newcommand{\qa}{Quantum Algorithms\xspace}
-\newcommand{\qct}{Quantum Circuit\xspace}
-\newcommand{\qcts}{Quantum Circuits\xspace}
-\newcommand{\qc}{Quantum Computing\xspace}
-\newcommand{\qi}{Quantum Information\xspace}
-\newcommand{\qis}{Quantum Information Science\xspace}
-\newcommand{\qm}{Quantum Mechanics\xspace}
-\newcommand{\qmt}{Quantum Measurement\xspace}
-\newcommand{\qp}{Quantum Physics\xspace}
-\newcommand{\qsp}{Quantum Superposition\xspace}
-\newcommand{\qw}{Quantum World\xspace}
+\newcommand{\qa}{\q Algorithms\xspace}
+\newcommand{\qct}{\q Circuit\xspace}
+\newcommand{\qcts}{\q Circuits\xspace}
+\newcommand{\qc}{\q Computing\xspace}
+\newcommand{\qcp}{\q Computation\xspace}
+\newcommand{\qec}{\q Error Correction\xspace}
+\newcommand{\qft}{\q Fourier Transform\xspace}
+\newcommand{\qi}{\q Information\xspace}
+\newcommand{\qis}{\q Information Science\xspace}
+\newcommand{\qm}{\q Mechanics\xspace}
+\newcommand{\qmt}{\q Measurement\xspace}
+\newcommand{\qp}{\q Physics\xspace}
+\newcommand{\qsp}{\q Superposition\xspace}
+\newcommand{\qw}{\q World\xspace}
+\newcommand{\mbqc}{Measurement Based \q Computer\xspace}
+\newcommand{\aqc}{Adiabatic \q Computation\xspace}
+
 \newcommand{\cl}{Classical\xspace}
 \newcommand{\cc}{Classical Computing\xspace}
 \newcommand{\cm}{Classical Mechanics\xspace}
 \newcommand{\cp}{Classical Physics\xspace}
-\newcommand{\qk}{QISKit\xspace}
+
+\newcommand{\qk}{Qiskit\xspace}
+\newcommand{\qka}{Qiskit Aqua\xspace}
 \newcommand{\ibmq}{IBM Q\xspace}
 \newcommand{\ibmqe}{IBM Q Experience\xspace}
 
@@ -60,8 +77,18 @@
 \newcommand{\np}{\textbf{NP}\xspace}
 \newcommand{\bqp}{\textbf{BQP}\xspace}
 
-\newcommand{\djs}{\textbf{Deutsch-Jozsa}\xspace}
-\newcommand{\ds}{\textbf{Deutsch's}\xspace}
+\newcommand{\djs}{Deutsch-Jozsa\xspace}
+\newcommand{\ds}{Deutsch's\xspace}
+\newcommand{\gv}{Grover\xspace}
+\newcommand{\gvs}{\gv's\xspace}
+\newcommand{\gvsa}{\gv's algorithm\xspace}
+\newcommand{\aamp}{Amplitude Amplification\xspace}
+\newcommand{\sa}{Shor's algorithm\xspace}
+
+\newcommand{\phiv}{phase inversion\xspace}
+\newcommand{\iatm}{inversion about the mean\xspace}
+
+\newcommand{\ai}{Artificial Intelligence\xspace}
 
 %configurable variables
 \newcommand{\githubRepo}{https://github.com/msramalho/Teach-Me-Quantum/}
@@ -88,12 +115,12 @@
 %%%%%%%%%%%%%%%%% color on hrefs
 \hypersetup{
     colorlinks=true,
-    linkcolor=blue,
-    filecolor=cyan,      
-    urlcolor=teal %hrefs
+    linkcolor=primaryD,%blue,
+    filecolor=primaryD,%cyan,
+    urlcolor=accent %hrefs
 }
 
 %%%%%%%%%%%%%%%%% minted settings
 \setminted[python]{fontsize=\footnotesize}
 \definecolor{bgGrey}{rgb}{0.95,0.95,0.95}
-\setminted[python]{bgcolor=bgGrey}
+\setminted{bgcolor=bgGrey}
