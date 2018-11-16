@@ -10,6 +10,7 @@
 \usepackage{macros} % must come after theme
 
 \title{High-Level Quantum Programming}
+\keywords{\qk, \q Programming}
 
 \begin{document}
 
@@ -35,7 +36,7 @@
 
 \begin{frame}{Introduction}
     \begin{cardTiny}
-        This week a different approach will be taken. We will see how quantum computing can be used for the benefit of many other scientific and industry areas. Hopefully, some of the topics you will learn will have a direct application on your life and work. 
+        This week, a different approach will be taken. We will see how quantum computing can be used for the benefit of many other scientific and industry areas. Hopefully, some of the topics you will learn will have a direct application on your life and work. 
     \end{cardTiny}
     \begin{cardTiny}
         We will do some \qka troubleshooting and then go through the latest examples on \href{https://github.com/Qiskit/qiskit-tutorial}{qiskit-tutorial} on how to use \qsa for solving real world problems. This example set is not fully explored and is expected to grow quite a lot in the short term (so keep your eyes open).\\
@@ -46,7 +47,7 @@
 
 \begin{frame}{Motivation}
     \begin{card}
-    \begin{chapquote}[2pt]{\href{https://msramalho.github.io/}{Miguel Ramalho}}
+    \begin{chapquote}[2pt]{\href{https://msramalho.github.io/}{Me}}
         ``The better people understand that quantum computing is within their grasp and can be leveraged towards personal gain, the sooner a day will come when running quantum algorithms is but a triviality.''
     \end{chapquote}
     \end{card}
@@ -74,7 +75,7 @@
 \section{\q Supremacy}
 \begin{frame}{\q Supremacy}
     \begin{card}
-        The term \textbf{\q Supremacy} (not to be mistaken for a mix between \textit{Quantum of Solace} and \textit{The Bourne Supremacy}) stands for the moment in time in which quantum computers can do better than the most powerful computer in simulating a quantum system.\\
+        The term \textbf{\q Supremacy} (not to be mistaken for a crossover between \textit{Quantum of Solace} and \textit{The Bourne Supremacy}...) stands for the moment in time in which quantum computers can do better than the most powerful computer in simulating a quantum system.\\
         This may seem strange, but the fact is that classical computers are so developed they they are still able to simulate better quantum computers than those in existence, but this classical "quantum simulation" fits into the \np family and so there will come a time, in the not so far away future, when they are no longer able to do better than \textit{the real thing}. 
     \end{card}
 \pagenumber
@@ -119,7 +120,7 @@
 \section{Troubleshooting \qka}
 \begin{frame}{Troubleshooting \qka}
     \begin{card}
-        After installing head to a command line and run  \mintinline{bash}{qiskit_aqua_ui}. If nothing happens, you should make sure you add your python \mintinline{bash}{bin} folder to the \href{https://docs.alfresco.com/4.2/tasks/fot-addpath.html}{system variable path}, it should be something like: \mintinline{python}{"C:\Program Files\Python36\Library\bin"}.\\
+        After installing head to a command line and run  \mintinline{bash}{qiskit_aqua_ui}. If nothing happens, you should make sure you add your python \mintinline{bash}{bin} folder to the \href{https://docs.alfresco.com/4.2/tasks/fot-addpath.html}{system variable path}, it should be something like: \mintinline{python}{"C:/Program Files/Python36/Library/bin"}.\\
         The same solution goes for \href{https://stackoverflow.com/questions/14778178/import-cvxopt-base-the-specified-module-could-not-be-found}{the cvxopt error} when running python scripts.
     \end{card}
 \pagenumber
