@@ -34,7 +34,7 @@ This course is **Open-source** and appropriate for both _autodidacticism_ as wel
  * 📁 [Week 8 - High Level Quantum Programming](Week%208%20-%20High%20Level%20Quantum%20Programming) (qiskit-aqua)
      * 📖 [Slides](Week%208%20-%20High%20Level%20Quantum%20Programming/slides.pdf)
      * 📁 [Exercises](Week%208%20-%20High%20Level%20Quantum%20Programming/exercises)
- * 📁 [Week 9 - State of the Quantum Art](Week%209%20-%20State%20of%20the%20Quantum%20Art) 
+ * 📁 [Week 9 - State of the Quantum Art](Week%209%20-%20State%20of%20the%20Quantum%20Art)
      * 📖 [Slides](Week%209%20-%20State%20of%20the%20Quantum%20Art/slides.pdf)
 
 ## Prior Knowledge
@@ -71,9 +71,9 @@ After completing this course, students should be able to:
 
 ## How to customize the slides
 #### Materials reuse
-The materials in this course can be adapted to specific classes, contexts, schools,... to the desire of the educators. 
+The materials in this course can be adapted to specific classes, contexts, schools,... to the desire of the educators.
 
-The `author`, `date` and `instute` properties of each presentation is defined in the respective `macros.tex` file (this file is an exact copy for each week). If you want to update global settings for all weeks (like the author, update links colors, update code snippets display, ...) you can use the [`update_macros.sh`](utils/update_macros.sh) (linux) | [`update_macros.bat`](utils/update_macros.bat) (windows) to replicate the changes from a copy of the file for every week's folder (the source file must be in the [utils](utils/) folder, there is already an updated version of [macros.tex](utils/macros.tex) in there).
+The `author`, `date` and `instute` properties of each presentation is defined in the respective `macros.sty` file (this file is an exact copy for each week). If you want to update global settings for all weeks (like the author, update links colors, update code snippets display, ...) you can use the [`update_macros.sh`](utils/update_macros.sh) (linux) | [`update_macros.bat`](utils/update_macros.bat) (windows) to replicate the changes from a copy of the file for every week's folder (the source file must be in the [utils](utils/) folder, there is already an updated version of [macros.sty](utils/macros.sty) in there).
 
 The constraint for using this materials is to replace the `\author[]{}` command by the following command: `\author[LASTNAME]{FIRSTNAME LASTNAME,\\ \scriptsize{based on slides by \textbf{Miguel Sozinho Ramalho}}}` with the update author info.
 
