@@ -1,12 +1,5 @@
 \documentclass[aspectratio=43]{beamer}
 \usepackage[utf8]{inputenc}
-\usepackage{macros}
-
-
-\title{\qis}
-\date{November, 2018}
-\author[Ramalho]{Miguel Sozinho Ramalho}
-% \institution[FEUP]{Faculty of Engineering of the University of Porto}
 
 %%%%%%%%%%%%%%%%%%%%%%%% THEME
 \usetheme{material}
@@ -14,6 +7,10 @@
 \usePrimaryDeepOrange
 \useAccentCyan
 
+\usepackage{macros} % must come after theme
+
+\title{\qis}
+\keywords{\qis}
 
 \begin{document}
 
@@ -33,7 +30,7 @@
 \begin{frame}{Introduction}
     \begin{card}
     This week we are going to build the bridge between \textbf{\qm} and \textbf{\qc}, in other words, how the \q laws can be leveraged into the tools we need for, well, computing! This will be done through a parallelism with \cc. \\
-    Furthermore, we will also go through what is known as \textbf{Big O notation}, an important topic that helps in understanding the novelty brought about by \qc.
+    Furthermore, we will also go through our first \textbf{\qk snippets} and finish of by running our first \q circuit on a \textbf{real Quantum Processor}, using \ibmqe. \qasm language will also be briefly mentioned as a tool for this course. 
     \end{card}
 \pagenumber
 \end{frame}
@@ -52,10 +49,10 @@
 \section{Classical bits}
 \begin{frame}{Classical bits}
     \begin{card}
-    The simplest unit of information in classical systems, a bit (short for binary unit), which can store either a 0 or a 1 value, thus binary.
+    The simplest unit of information in classical systems, a bit (short for binary unit), which can store either a 0 or a 1 value, thus binary. 
     \end{card}
     \begin{card}
-    \href{https://twitter.com/drtaliagershon?lang=en}{Dr Talia Gershon} has an interesting metaphor for explaining the difference between bits and the quantum equivalent, based on the concept of coin tossing, from which I will borrow!
+    There is quite an interesting metaphor for explaining the difference between bits and their quantum equivalent, based on the concept of coin tossing, from which we will start!
     \end{card}
 \pagenumber
 \end{frame}
@@ -98,7 +95,7 @@
 
 \begin{frame}{Coin tossing for qubits}
     \begin{card}
-        And so, instead of heads or tails, we can compare this state to a coin that is still spinning. Such is the essence of the qubit, a simultaneous state of 0 and 1 (described according to the probability distribution of $\alpha$ and $\beta$).  Notice that the state is not hidden according to the probabilities, but rather comprised of both possibilities!
+        And so, instead of heads or tails, we can compare this state to a coin that is still spinning. Such is the essence of the qubit, a simultaneous state of 0 and 1 (described according to the probability distribution of $\alpha$ and $\beta$).  Notice that the state is not hidden according to the probabilities, but rather comprised of both possibilities!  
     \end{card}
     \begin{center}
         \includegraphics[width=0.2\textwidth]{spinning_coin}
@@ -134,7 +131,7 @@
 
 \begin{frame}{Coin tossing metaphor}
 	\begin{cardTiny}
-		If we have two coins,the state \textbf{can be} 00 or 01 or 10 or 11.
+		If we have two coins,the state \textbf{can be} 00 or 01 or 10 or 11. 
 	\end{cardTiny}
     \begin{center}
         \includegraphics[width=0.1\textwidth]{escudo_tails}\\
@@ -149,7 +146,7 @@
 
 \begin{frame}{Coin tossing metaphor}
 	\begin{cardTiny}
-		If we have three coins,the state \textbf{can be} 000 or 001 or 010 or 011 or 100 or 101 or 110 or 111.
+		If we have three coins,the state \textbf{can be} 000 or 001 or 010 or 011 or 100 or 101 or 110 or 111. 
 	\end{cardTiny}
     \begin{center}
         \includegraphics[width=0.1\textwidth]{escudo_tails}\\
@@ -209,7 +206,7 @@
 
 \begin{frame}{Coin tossing metaphor}
 	\begin{cardTiny}
-		If we have three spinning coins, the state \textbf{is} 000 and 001 and 010 and 011 and 100 and 101 and 110 and 111.
+		If we have three spinning coins, the state \textbf{is} 000 and 001 and 010 and 011 and 100 and 101 and 110 and 111. 
 	\end{cardTiny}
     \begin{center}
         \includegraphics[width=0.1\textwidth]{spinning_coin}\\
@@ -282,7 +279,7 @@ What we can do so far is quite limited, but these are the building blocks we nee
 Here is the code for visualizing our mighty complex circuit:
 \begin{cardTiny}
 \begin{minted}{python}
-from qiskit.tools.visualization
+from qiskit.tools.visualization 
  import matplotlib_circuit_drawer as draw
 draw(qc) # visualize our quantum circuit
 \end{minted}
@@ -320,7 +317,7 @@ measure q[1] -> c[1];
 \small{
     \href{https://quantumexperience.ng.bluemix.net/qx/experience}{\ibmqe} supports QASM in their online editor, and you can literally use a GUI and check the \qasm equivalent (and vice versa).  Your task is to go to the \href{https://quantumexperience.ng.bluemix.net/qx/editor}{editor} and do the following:
     \begin{itemize}
-        \itemsep0em
+        \itemsep0em 
         \item Login into \ibmqe
         \item Click on "New" for a new experiment
         \item Name it as you like (eg. "qasm\_test")
@@ -348,13 +345,13 @@ measure q[1] -> c[1];
 % % https://www.quantiki.org/wiki/bqp
 % \begin{frame}{Frame Title}
 %     \begin{card}
-
+    
 %     \end{card}
 % \pagenumber
 % \end{frame}
 
 
-\section{References}
+\section{Where to learn more?}
 \begin{frame}{Where to learn more?}
 \begin{card}
     \begin{itemize}
