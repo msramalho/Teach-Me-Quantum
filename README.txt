@@ -2,12 +2,16 @@
 
 # Teach Me Quantum
 
-A university-level course on **Quantum Computing** and **Quantum Information Science** that incorporates IBM Q Experience and Qiskit. 
-This course is adequate for general audiences without prior knowledge on Quantum Mechanics and Quantum Computing (see #prior-knowledge), has an estimated average duration of **10 weeks at 3h/week** (see #duration) and is meant to be the entrypoint into the **Quantum World**.
+A university-level course on Quantum Computing and Quantum Information Science that incorporates IBM Q Experience and Qiskit. 
+This course is adequate for general audiences without prior knowledge on Quantum Mechanics and Quantum Computing (see #prior-knowledge), has an estimated average duration of 10 weeks at 3h/week (see #duration) and is meant to be the entrypoint into the Quantum World.
 
-This course is **Open-source** and appropriate for both _autodidacticism_ as well as _classroom teaching_ by educators, professors and lecturers in their own classes. Given the dynamic nature of the topic, any open-source contributions and future improvements are welcome.
+This course is Open-source (GitHub) and appropriate for both autodidacticism as well as classroom teaching by educators, professors and lecturers in their own classes. Instructions for reuse are given in the repository. It is expected to be improved by open-source contributions. 
 
-## Course Overview
+The course materials are yet to be implemented on a real scenario. The easier notebooks (weeks 1 to 5) have, however, been shared with a few students of computer engineering for feedback and improvement.
+
+Qskit and IBMQX are present in nearly every week's exercises. Being crucial for the students to implement the theory learnt during the week. Code snippets, configuration/installation instructions and troubleshooting tips are also presented in the slides.
+
+# Course Overview
  * Week 0 - Hello Quantum World
  * Week 1 - Quantum Tools
  * Week 2 - Quantum Information Science
@@ -19,20 +23,19 @@ This course is **Open-source** and appropriate for both _autodidacticism_ as wel
  * Week 8 - High Level Quantum Programming
  * Week 9 - State of the Quantum Art
 
-## Prior Knowledge
-Students of this course are expected to be familiar with (this can be done while going through the course):
+# Prior Knowledge
  * Python language
- * Jupyter Notebook environment
+ * Jupyter Notebooks
  * Some linear algebra
 
-## Learning Goals
-After completing this course, students should be able to:
+# Learning Goals
+Afterwards, students should be able to:
  * Understand the basics of Quantum Mechanics
  * Know how a computing model can be built around Quantum Mechanics
  * Understand the advantages, disadvantages and implications of Quantum Computing
- * UndersandQiskitum Information Science and how it contrasts with classical information theory
- * Leverage QISKit towards research and development in the _Quantum World_
- * Understand the empirical differences between Quantum Simulators and real Quantum Devices (such as those available in IBMQ)
+ * Understand Quantum Information Science and how it contrasts with classical information theory
+ * Leverage Qiskit towards research and development in the _Quantum World_
+ * Understand the empirical differences between Quantum Simulators and real Quantum Devices (such as those available in IBMQX)
  * Design, interpret and deploy quantum circuits (simulators and real processors)
  * Know and describe a few of the most common quantum algorithms: Deutsch, Grover, Shor
  * Be able to quickly understand new quantum algorithms based on the same principles: Simon, ...
@@ -41,14 +44,10 @@ After completing this course, students should be able to:
  * Understand High Level applications of near-end quantum algorithms, namely how to use qiskit-aqua for solving real world problems
  * Move on to deeper waters, by exploring according to their heart's desire!
 
-## Duration
- * Estimated average duration of **10 weeks at 3h/week**
- * Duration is flexible depending on level of depth a teacher imposes on each week.
- * Usually 1h theory + 2h practice, except for:
-     * week 0 (1h + 0h = 1h)
-     * week 1 (1h + 1h = 2h)
-     * week 9 (2h + 0h = 2h)
-* Estimated total time: **25h to 30h**.
+# Duration
+ * Estimated average duration of **10 weeks at 3h/week** (flexible depending on level of depth).
+ * Usually 1h theory + 2h practice, except for weeks 0, 1 and 9 (2h each).
+ * Estimated total time: **25h to 30h**.
 
-## Customizing Slides
+# Customizing Slides
 Additional instructions for customizing and reusing these slides for other lectures can be found in the README.md file at https://github.com/msramalho/Teach-Me-Quantum
