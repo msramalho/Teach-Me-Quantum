@@ -83,7 +83,7 @@
     
     \begin{cardTiny}
         A Unitary Operator is a Linear Operator (an operator that performs a linear transformation), with the additional constraint that it is unitary: $AA^\dag=A^\dag A = I$.\\
-        These means we can apply a unitary operator to a vector space twice and get the original vector space. We care about them because this is exactly how quantum gates operate!
+        These means we can apply a unitary operator to a vector space, apply its inverse and get the original vector space. We care about them because this is exactly how quantum gates operate, with a reversibility property!
     \end{cardTiny}
 \pagenumber
 \end{frame}
@@ -94,7 +94,7 @@
 \begin{card}
     A quantum gate is an analogy of classic gates and is also a useful paradigm to think about qubit manipulation.\\ Also known as quantum logic gates, they have the following properties:
     \begin{itemize}
-        \item Reversible (applied twice result in the original state) unlike some classical gates (for example the OR gate)
+        \item Reversible, unlike some classical gates (for example the OR gate)
         \item Represented by Unitary matrices
         \item Each gate is only applied to the same number of qubits (one-qubit gates, two-qubit gates, ...)
     \end{itemize}
@@ -232,8 +232,8 @@ circuit.z(qr[1])
     For instance, controlled gates for 2 qubits add a \textbf{control} qubit and, if it is $\ket{1}$, the original gate is applied to the other qubit; if the control qubit is $\ket{0}$ the other qubit remains the same (typically).\\
     \begin{equation*}
         CNOT = \left\{\begin{matrix}
-            \text{control qubit is } \ket{0} \Rightarrow \text{leave source qubit} \\ 
-            \text{control qubit is } \ket{1} \Rightarrow \text{apply gate to source qubit}
+            \text{control qubit is } \ket{0} \Rightarrow \text{leave target qubit} \\ 
+            \text{control qubit is } \ket{1} \Rightarrow \text{apply gate to target}
         \end{matrix}\right.
     \end{equation*}
     Given two qubits, it flips the second iff the first is $\ket{1}$.
@@ -243,7 +243,7 @@ circuit.z(qr[1])
 
 \begin{frame}{Controlled Not (CNOT)}
 \begin{card}
-    One example of this is the CNOT gate, one of the most important 2-qubit gates. It is a controlled gate derived from the X gate, so it is also know as cx gate.Its unitary operator is:
+    One example of this is the CNOT gate, one of the most important 2-qubit gates. It is a controlled gate derived from the X gate, so it is also know as CX gate. Its unitary operator is:
     \begin{equation*}
         \begin{bmatrix}1 & 0 & 0 & 0\\ 0 & 1 & 0 & 0\\ 0 & 0 & 0 & 1\\ 0 & 0 & 1 & 0\end{bmatrix}
     \end{equation*}
@@ -279,7 +279,7 @@ circuit.cx(qr[0], qr[1])
         \item CCNOT (AKA Toffoli)
         \item CSWAP (\textbf{C} usually stands for `Controlled')
         \item XX (not the band, no)
-        \item Deutsch (not hardware implementation yet)
+        \item Deutsch
     \end{itemize}
 \end{cardTiny}
 \pagenumber
@@ -288,7 +288,7 @@ circuit.cx(qr[0], qr[1])
 \section{Exercises}
 \begin{frame}{Exercises}
 \begin{card}[Hands-on]
-    This week you will start writing your first quantum gates, run simple circuits on a simulator, plot the readings. Do all of that in a real quantum device (and learn about real world concerns you should take).\\
+    This week you will start writing your first quantum gates, run simple circuits on a simulator and plot the measurements. Do all of that in a real quantum device (and learn about real world concerns you should take).\\
     When you feel ready, move on to the \href{\weekThree/exercises/w3_01.ipynb}{exercises} and, if you feel stuck, you may look at the \href{\weekThree/exercises/w3_01_s.ipynb}{solutions}.
 \end{card}
 \pagenumber
