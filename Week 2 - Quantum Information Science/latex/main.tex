@@ -38,10 +38,7 @@
 \section{\qis}
 \begin{frame}{\qis}
     \begin{card}
-    Is a broad area of studies, it is the \q sibling of typical information system. It is concerned with \textbf{representing}, \textbf{manipulating} and \textbf{maintaining} information in quantum states. It tackles many problems that did not exist, at least in the same form, in \cc, such as \textit{quantum error correction}, \textit{quantum teleportation}, \textit{quantum communication}.
-    \end{card}
-    \begin{card}
-    Reflects the combination of \qm with the classical \href{http://mathworld.wolfram.com/TuringMachine.html}{Turing Machines}.
+    Is a broad area of studies, it is the \q sibling of typical information science. It is concerned with \textbf{representing}, \textbf{manipulating} and \textbf{maintaining} information in quantum states. It tackles many problems that did not exist, at least in the same form, in \cc, such as \textit{quantum error correction}, \textit{quantum teleportation}, \textit{quantum communication}, ...
     \end{card}
 \pagenumber
 \end{frame}
@@ -109,7 +106,7 @@
         Unlike a bit, we now have a single quantum state with two simultaneous states. Why does this matter? Because this uncertainty contains in itself much more than a deterministic bit, so that when we perform operations, they are applied to all possible states and not just the one.
     \end{card}
 	\begin{cardTiny}
-		\textbf{\q register:} is an array of n qubits. A 1-bit quantum register is simply a qubit and holds $2^1 = 2$ possible states, whereas an 8-qubit quantum register holds $2^8 = 256$ states, not just 1 of them like classical register, all of them!!
+		\textbf{\q register:} is an array of n qubits. A 1-bit quantum register is simply a qubit and can hold $2^1 = 2$ possible states, whereas an 8-qubit quantum register can hold $2^8 = 256$ states, not just 1 of them like classical registers, all of them!!
 	\end{cardTiny}
 \pagenumber
 \end{frame}
@@ -191,7 +188,7 @@
 
 \begin{frame}{Coin tossing metaphor}
 	\begin{cardTiny}
-		If we have two spinning coins, the state \textbf{is} 00 and 01 and 10 and 11.
+		If we have two (independent) spinning coins, the state \textbf{is} 00 and 01 and 10 and 11.
 	\end{cardTiny}
     \begin{center}
         \includegraphics[width=0.1\textwidth]{spinning_coin}\\
@@ -206,7 +203,7 @@
 
 \begin{frame}{Coin tossing metaphor}
 	\begin{cardTiny}
-		If we have three spinning coins, the state \textbf{is} 000 and 001 and 010 and 011 and 100 and 101 and 110 and 111. 
+		If we have three (independent) spinning coins, the state \textbf{is} 000 and 001 and 010 and 011 and 100 and 101 and 110 and 111. 
 	\end{cardTiny}
     \begin{center}
         \includegraphics[width=0.1\textwidth]{spinning_coin}\\
@@ -221,7 +218,7 @@
 
 \begin{frame}{Coin tossing metaphor}
 	\begin{card}
-		Essentially if we have \textbf{n} spinning coins, we can have  \textbf{$2^n$} possible states simultaneously.\\
+		Essentially if we have \textbf{n} (independent) spinning coins, we can have  \textbf{$2^n$} possible states simultaneously.\\
 		For $n=4$ our state holds $2^4=16$ possibilities. The information we can have grows \textbf{exponentially} with the number of spinning coins or, let me unveil the curtain, qubits! Such is the power of the qubit, and this "supercharged" version of the bit will help us understand why \qc really tips the scales.
 	\end{card}
 \pagenumber
@@ -285,7 +282,7 @@ draw(qc) # visualize our quantum circuit
 \end{minted}
 \end{cardTiny}
 \begin{center}
-    \includegraphics[width=0.3\textwidth]{circuit_01_measurement}
+    \includegraphics[width=0.25\textwidth]{circuit_01_measurement}
 \end{center}
 \small{
     You will notice that both qubits ($q0_0$ and $q0_1$) are initially in state $\ket{0}$ meaning that $\beta=0$ in $\superpos$ (what do you think $\alpha=$?). This is by design and how most experiments begin. The symbol connecting the qubit to each bit is the universal symbol for quantum measurement.
@@ -296,7 +293,7 @@ draw(qc) # visualize our quantum circuit
 \begin{frame}[fragile]{\qasm}
     \begin{cardTiny}
     \small{
-    \qasm derives from `Open Quantum Assembly Language' and reads `kazm'. This is a rather recent invention, coming of of a \href{https://arxiv.org/abs/1707.03429}{2017 paper}. It is a descriptive language that maps a quantum circuit as text instructions. It has been became a standard and, although we will not be going deeper into it, it is good to understand the overall structure of these documents, here is the example for the above circuit (q0 was changed into q, and c0 to c due to some \qasm interpreters):
+    \qasm derives from `Open Quantum Assembly Language' and reads `kazm'. This is a rather recent invention, coming of of a \href{https://arxiv.org/abs/1707.03429}{2017 paper}. It is a descriptive language that maps a quantum circuit as text instructions. It has since became a standard and, although we will not be going deeper into it, it is good to understand the overall structure of these documents, here is the example for the above circuit (q0 was changed into q, and c0 to c due to some \qasm interpreters):
     }
     \end{cardTiny}
     \begin{cardTiny}
