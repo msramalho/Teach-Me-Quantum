@@ -70,19 +70,19 @@ After completing this course, students should be able to:
 * Estimated total time: **25h to 30h**.
 
 
-## How to customize the slides
-#### Reusing materials
+## Customizing Slides
+#### Reusing Slides
 The materials in this course can be adapted to specific classes, contexts, schools,... to the desire of the educators.
 
 The `author`, `date` and `instute` properties of each presentation is defined in the respective `macros.sty` file (this file is an exact copy for each week). If you want to update global settings for all weeks (like the author, update links colors, update code snippets display, ...) you can use the [`sh replicate_macros.sh`](utils/replicate_macros.sh) (linux) | [`replicate_macros.bat`](utils/replicate_macros.bat) (windows) to replicate the changes from a copy of the file for every week's folder (the source file must be in the [utils](utils/) folder, there is already an updated version of [macros.sty](utils/macros.sty) in there).
 
 The constraint for using this materials is to replace the `\author[]{}` command by the following command: `\author[LASTNAME]{FIRSTNAME LASTNAME,\\ \scriptsize{based on slides by \textbf{Miguel Sozinho Ramalho}}}` with the update author info.
 
-#### Animating PDF slides
+#### Animating Slides
 Each `.pdf` file for slides is static, but if you want to include animations you can do so by replacing the `document` class in the first line of the `main.tex` files by `\documentclass[handout]{beamer}`) and following [these instructions](https://tex.stackexchange.com/a/177060/126771).
 
 
-#### Adding Notes to slides
+#### Adding Notes to Slides
 This can also be accomplished by appending the following lines before `\begin{document}`:
 ```tex
 \usepackage{pgfpages}
@@ -93,7 +93,7 @@ This can also be accomplished by appending the following lines before `\begin{do
 #### Compiling LaTeX files
 To achieve this use any LaTeX compiler of your choice, if you have [pdflatex](https://www.tug.org/applications/pdftex/) you can simply do `pdflatex main.tex` on each week's latex folder.
 
-#### Presenting Slides with Notes and/or animations
+#### Presenting Slides with Notes and/or Animations
 To present the slides with **notes** or with **animations** will only work with an external program, I advise [dannyedel/dspdfviewer](https://github.com/dannyedel/dspdfviewer/releases) which also has dual screen and timer functionality.
 
 ---
