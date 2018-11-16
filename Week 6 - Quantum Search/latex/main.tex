@@ -9,7 +9,8 @@
 
 \usepackage{macros} % must come after theme
 
-\title{Quantum Search}
+\title{\q Search}
+\keywords{\qc, \q Search, Grover's algorithm}
 
 \begin{document}
 
@@ -76,7 +77,7 @@
 \section{\gvsa} % overview of steps, comparison of bigO
 \begin{frame}{\gvsa}
     \begin{card}
-        Luckily for the world, Dr. \href{https://en.wikipedia.org/wiki/Lov_Grover}{Lov Grover} devised an algorithm that, instead of $N$ steps to find a solution, requires $\sqrt{N}$. This is a \href{https://arxiv.org/abs/quant-ph/9711070}{it is optimal} (no better speed up is possible for this problem).
+        Luckily for the world, Dr. \href{https://en.wikipedia.org/wiki/Lov_Grover}{Lov Grover} devised an algorithm that, instead of $N$ steps to find a solution, requires $\sqrt{N}$. This is a \href{https://arxiv.org/abs/quant-ph/9711070}{it is optimal} (no better speed up is possible for this problem). 
     \end{card}
     \begin{card}
         The algorithm makes use of two very important phenomenon that can be implemented in a quantum computer:\begin{itemize}
@@ -203,7 +204,7 @@
         It should be noted that the amplitude \textbf{cannot increase forever} and will eventually be so large that the mean becomes negative (after \phiv) and the \iatm step is actually \textbf{harming our result}. That is why one should know hen to stop (how many iterations guarantee the minimum desired amplitude).}
     \end{cardTiny}
     \begin{cardTiny}
-        There you have it, by executing the \aamp iteration we can solve a classical problem that had a complexity of $O(N)$ in $O(\sqrt{N})$, it is not an exponential growth (as some quantum algorithms are able to do), but in this case that would have some \href{https://en.wikipedia.org/wiki/P_versus_NP_problem}{very disruptive consequences}.
+        There you have it, by executing the \aamp iteration we can solve a classical problem that had a complexity of $O(N)$ in $O(\sqrt{N})$, it is not an exponential growth (as some quantum algorithms are able to do), but in this case that would have some \href{https://en.wikipedia.org/wiki/P_versus_NP_problem}{very disruptive consequences}. 
     \end{cardTiny}
 \pagenumber
 \end{frame}
