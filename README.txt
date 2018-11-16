@@ -9,16 +9,16 @@ This course is **Open-source** and appropriate for both _autodidacticism_ as wel
 
 ## Course Overview
 
- * 📁 Week 0 - Hello Quantum World
- * 📁 Week 1 - Quantum Tools
- * 📁 Week 2 - Quantum Information Science
- * 📁 Week 3 - Quantum Gates
- * 📁 Week 4 - Quantum Facts
- * 📁 Week 5 - Quantum Algorithms
- * 📁 Week 6 - Quantum Search
- * 📁 Week 7 - Quantum Factorization
- * 📁 Week 8 - High Level Quantum Programming
- * 📁 Week 9 - State of the Quantum Art
+ * Week 0 - Hello Quantum World
+ * Week 1 - Quantum Tools
+ * Week 2 - Quantum Information Science
+ * Week 3 - Quantum Gates
+ * Week 4 - Quantum Facts
+ * Week 5 - Quantum Algorithms
+ * Week 6 - Quantum Search
+ * Week 7 - Quantum Factorization
+ * Week 8 - High Level Quantum Programming
+ * Week 9 - State of the Quantum Art
 
 ## Prior Knowledge
 Students of this course are expected to be familiar with (this can be done while going through the course):
