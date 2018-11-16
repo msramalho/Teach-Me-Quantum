@@ -1,12 +1,5 @@
 \documentclass[aspectratio=43]{beamer}
 \usepackage[utf8]{inputenc}
-\usepackage{macros}
-
-
-\title{\q Facts}
-\date{November, 2018}
-\author[Ramalho]{Miguel Sozinho Ramalho}
-% \institution[FEUP]{Faculty of Engineering of the University of Porto}
 
 %%%%%%%%%%%%%%%%%%%%%%%% THEME
 \usetheme{material}
@@ -14,6 +7,10 @@
 \usePrimaryPink
 \useAccentIndigo
 
+\usepackage{macros} % must come after theme
+
+\title{\q Facts}
+\keywords{\qc}
 
 \begin{document}
 
@@ -49,7 +46,7 @@
 
 \begin{frame}{\q Universal Gates}
 \begin{card}
-    After \qc was initially thought of, and with the development of quantum gates, such simple sets were also procured. And they exist! Although they require some more complex considerations. We will not be proving this, as it is too theoretic and there are plenty of good explanations for it online, yet we will take a glimpse at what gates would we need.
+    After \qc was initially thought of, and with the development of quantum gates, such simple sets were also procured. And they exist! Although they require some more complex considerations. We will not be proving this, as it is too theoretic and there are plenty of good explanations for it online, yet we will take a glimpse at what gates  we would need.
 \end{card}
 \pagenumber
 \end{frame}
@@ -58,10 +55,10 @@
 \begin{cardTiny}
 Firstly, it is \textbf{not} possible to do so using only single qubit operators (some we already know, others are here for completeness purposes):
     \begin{multicols}{2}
-$X = \begin{bmatrix}0 & 1\\ 1 & 0 \end{bmatrix}$
-$Y = \begin{bmatrix}0 & -i\\ i & 0 \end{bmatrix}$
-$Z = \begin{bmatrix}1 & 0\\ 0 & -1 \end{bmatrix}$
-$I = \begin{bmatrix}1 & 0\\ 0 & 1 \end{bmatrix}$
+% $X = \begin{bmatrix}0 & 1\\ 1 & 0 \end{bmatrix}$
+% $Y = \begin{bmatrix}0 & -i\\ i & 0 \end{bmatrix}$
+% $Z = \begin{bmatrix}1 & 0\\ 0 & -1 \end{bmatrix}$
+% $I = \begin{bmatrix}1 & 0\\ 0 & 1 \end{bmatrix}$
 $T = \begin{bmatrix}1 & 0\\ 0 & \epsilon^{i\pi/4} \end{bmatrix}$
 $S = \begin{bmatrix}1 & 0\\ 0 & i \end{bmatrix}$
 $H = \begin{bmatrix}\osqrt  & \osqrt \\ \osqrt  & -\osqrt \end{bmatrix}$
@@ -76,30 +73,26 @@ The first way of achieving the Universal Gate set is to take these single qubit 
 
 \begin{frame}{\q Universal Gates}
 \begin{card}
-There are many \href{https://pdfs.semanticscholar.org/a447/1b597126f925f675371bc422cd305a08c0ba.pdf}{other advances} on this matter, but there are singleton sets as well.\\
-The Deutsch gate, and the Toffoli (CCNOT) gates are also examples of universal reversible operators.
-\end{card}
-\begin{card}
-The Toffoli gate transformation maps 3 qubits and is therefore of size $2^3=8$. It is essentially an identity matrix, except for the intersection of the last two columns and two lines, which matches the X gate: \begin{bmatrix}0 & 1\\1 & 0\end{bmatrix}
+The \textbf{Toffoli} (CCNOT) gate is one of the most eloquent gates that can perform any \textbf{Boolean} operation (universal for Boolean reversible computation). However, alone it is \textbf{not enough} for quantum universality. But, if we add to it the ability to \textbf{generate superposition}, with the \textbf{Hadamard} gate, they form a set of size two that is capable of quantum universal computation $\{Toffoli, H\}$. (There is another such pair $\{U_{qubit}, \sqrt{SWAP}\}$ which are gates you can research on your own). 
 \end{card}
 \pagenumber
 \end{frame}
 
 \begin{frame}{\q Universal Gates}
+% \begin{cardTiny}
+%     \small{Here's the Deutsch gate in extended form, you can probably see why it is hard to implement:}\\
+%     \includegraphics[width=0.7\textwidth]{deutsch}
+% \end{cardTiny}
 \begin{cardTiny}
-    \small{Here's the Deutsch gate in extended form, you can probably see why it is hard to implement:}\\
-    \includegraphics[width=0.7\textwidth]{deutsch}
+\small{The Toffoli gate transformation maps 3 qubits and is therefore of size $2^3=8$. It is essentially an identity matrix, except for the intersection of the last two columns and two lines, which matches the X gate: \begin{bmatrix}0 & 1\\1 & 0\end{bmatrix} (Can you understand why?)}
 \end{cardTiny}
 \begin{cardTiny}
     \begin{multicols}{2}
-    \small{As a curiosity, this is the Toffoli gate in circuit representation, you may notice some similarity with the CNOT gate, recall that this is also called CCNOT. The black circles actually represent both the control bits.}
+    \small{This is the Toffoli gate in, you may notice some similarity with the CNOT gate, recall that this is also called CCNOT. The black circles actually represent both the control bits.}
     \begin{center}
-        \includegraphics[width=0.2\textwidth]{toffoli} 
+        \includegraphics[width=0.3\textwidth]{toffoli} 
     \end{center}
     \end{multicols}
-\end{cardTiny}
-\begin{cardTiny}
-    \small{Hopefully, this slides have shown you that things do complicate but they do not stop making sense. That is the the important message to understand, here.}
 \end{cardTiny}
 \pagenumber
 \end{frame}
