@@ -41,7 +41,7 @@ This course is **Open-source** and appropriate for both _autodidacticism_ as wel
 Students of this course are expected to be familiar with (this can be done while going through the course):
  * [Python](https://www.python.org/) language
  * [Jupyter](http://jupyter.org/) Notebook environment
- * Linear algebra basics, such as: inner and outer products, eigenvalues, norms, transpose, adjoints (complex conjugates), tensor product, ...
+ * Some linear algebra: inner and outer products, eigenvalues, norms, transpose, adjoints (complex conjugates), tensor product, ...
 
 ## Learning Goals
 After completing this course, students should be able to:
@@ -68,13 +68,34 @@ After completing this course, students should be able to:
      * week 9 (2h + 0h = 2h)
 * Estimated total time: **25h to 30h**.
 
-## Working with PDF slides
-Each `.pdf` file for slides may have two versions `NAME.pdf` and `NAME_animated.pdf`. The first ignores animations (by replacing the document class in any `.tex` file for `\documentclass[handout]{beamer}`) and the second contains animations.
 
-Animated slides will only work with an external program, I advise [dannyedel/dspdfviewer](https://github.com/dannyedel/dspdfviewer/releases) which also has dual screen and timer functionality.
+## How to customize the slides
+#### Materials reuse
+The materials in this course can be adapted to specific classes, contexts, schools,... to the desire of the educators. 
 
-## Compiling LaTeX files
-To achieve this use any LaTeX compiler of your choice, if you have [pdflatex](https://www.tug.org/applications/pdftex/) you can simply do `pdflatex week_XX.tex`.
+The `author`, `date` and `instute` properties of each presentation is defined in the respective `macros.tex` file (this file is an exact copy for each week). If you want to update global settings for all weeks you can use the `update_macros.sh`(linux)|`update_macros.bat` (windows) to replicate the copy in this folder for every week's folder.
+
+The constraint for using this materials is to replace the `\author[]{}` command by the following command: `\author[LASTNAME]{FIRSTNAME LASTNAME,\\ \scriptsize{based on slides by \textbf{Miguel Sozinho Ramalho}}}` with the update author info.
+
+#### Animating PDF slides
+Each `.pdf` file for slides is static, but if you want to include animations you can do so by replacing the `document` class in the first line of the `main.tex` files by `\documentclass[handout]{beamer}`) and following [these instructions](https://tex.stackexchange.com/a/177060/126771).
+
+
+#### Adding Notes to slides
+This can also be accomplished by appending the following lines before `\begin{document}`:
+```tex
+\usepackage{pgfpages}
+\setbeameroption{show notes}
+\setbeameroption{show notes on second screen=right}
+```
+
+To present the slides with **notes** or with **animations** will only work with an external program, I advise [dannyedel/dspdfviewer](https://github.com/dannyedel/dspdfviewer/releases) which also has dual screen and timer functionality.
+
+
+#### Compiling LaTeX files
+To achieve this use any LaTeX compiler of your choice, if you have [pdflatex](https://www.tug.org/applications/pdftex/) you can simply do `pdflatex main.tex` on each week's latex folder.
+
+---
 
 ## Aditional notes
 Each week's slides has a particular theme, that is to help students distinguish between them and strengthen the learning process by fostering association. Here's an overview of each week's theme:
