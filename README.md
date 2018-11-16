@@ -51,7 +51,7 @@ After completing this course, students should be able to:
  * Understand the basics of Quantum Mechanics
  * Know how a computing model can be built around Quantum Mechanics
  * Understand the advantages, disadvantages and implications of Quantum Computing
- * UndersandQiskitum Information Science and how it contrasts with classical information theory
+ * Understand Quantum Information Science and how it contrasts with classical information theory
  * Leverage QISKit towards research and development in the _Quantum World_
  * Understand the empirical differences between Quantum Simulators and real Quantum Devices (such as those available in IBMQ)
  * Design, interpret and deploy quantum circuits (simulators and real processors)
