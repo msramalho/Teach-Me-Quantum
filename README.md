@@ -34,7 +34,8 @@ This course is **Open-source** and appropriate for both _autodidacticism_ as wel
  * 📁 [Week 8 - High Level Quantum Programming](Week%208%20-%20High%20Level%20Quantum%20Programming) (qiskit-aqua)
      * 📖 [Slides](Week%208%20-%20High%20Level%20Quantum%20Programming/slides.pdf)
      * 📁 [Exercises](Week%208%20-%20High%20Level%20Quantum%20Programming/exercises)
- * 📁 Week 9 - State of the Quantum Art, Adiabatic Quantum Computation, History and Final considerations
+ * 📁 [Week 9 - State of the Quantum Art](Week%209%20-%20State%20of%20the%20Quantum%20Art) 
+     * 📖 [Slides](Week%209%20-%20State%20of%20the%20Quantum%20Art/slides.pdf)
 
 ## Prior Knowledge
 Students of this course are expected to be familiar with (this can be done while going through the course):
