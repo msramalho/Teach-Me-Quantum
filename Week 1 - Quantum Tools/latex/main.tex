@@ -1,12 +1,5 @@
 \documentclass[aspectratio=43]{beamer}
 \usepackage[utf8]{inputenc}
-\usepackage{macros}
-
-
-\title{\q Tools}
-\date{November, 2018}
-\author[Ramalho]{Miguel Sozinho Ramalho}
-% \institution[FEUP]{Faculty of Engineering of the University of Porto}
 
 %%%%%%%%%%%%%%%%%%%%%%%% THEME
 \usetheme{material}
@@ -14,6 +7,10 @@
 \usePrimaryPurple
 \useAccentTeal
 
+\usepackage{macros} % must come after theme
+
+\title{\q Tools}
+\keywords{\qk}
 
 \begin{document}
 
@@ -237,23 +234,7 @@
 \pagenumber
 \end{frame}
 
-% \begin{frame}[fragile]{Frame Title}
-%     \begin{minted}{python}
-%     import numpy as np
-        
-%     def incmatrix(genl1,genl2):
-%         m = len(genl1)
-%         n = len(genl2)
-%         M = None #to become the incidence matrix
-%         VT = np.zeros((n*m,1), int)  #dummy variable
-        
-%         #compute the bitwise xor matrix
-%         M1 = bitxormatrix(genl1)
-%         M2 = np.triu(bitxormatrix(genl2),1) 
-%     \end{minted}
-% \end{frame}
-
-\section{References}
+\section{Where to learn more?}
 \begin{frame}{Where to learn more?}
 \begin{card}
     \begin{itemize}
