@@ -4,7 +4,7 @@
  * Jupyter
  * Google Colaboratory
  * Binder
- * QISKit (and its composing parts)
+ * Qiskit (and its composing parts)
  * Community and VSCode extension
  * IBMQ and IBMQ Experience
  
