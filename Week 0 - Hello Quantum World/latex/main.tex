@@ -58,13 +58,13 @@
 \begin{card}
     \begin{itemize}
         \item \qm 101
-        \item \qk and \ibmq
+        \item \qk and \ibmqe
         \item \qi
         \item Designing \qcts
-        \item \qa
+        \item \qa (Deutsch, Grover, Shor)
         \item \qc applications
         \item \q Computers - state of the art
-        \item History, implications and ethics
+        \item Implications and ethical considerations throughout
     \end{itemize}
 \end{card}
 \pagenumber
@@ -73,7 +73,7 @@
 \section{Introduction}
 \begin{frame}{Introduction}
 \begin{card}
-    In this first week we will start by defining what \qc is and how it compares to \cc. Next, a walk-through the novelty that \qm brings and how it compares to \cp.  As a starting point to understanding how these quantum properties can be used to tackle problems algorithmically, we will introduce the concepts of superposition and measurement, that of entanglement will be introduced later, at a stage where it makes more sense and is easier to assimilate.
+    In this first week, we will start by defining what \qc is and how it compares to \cc. Next, a walk-through the novelty that \qm brings and how it compares to \cp.  As a starting point to understanding how these quantum properties can be used to tackle problems algorithmically, we will introduce the concepts of \textbf{superposition} and \textbf{measurement}, that of \textbf{entanglement} will be introduced later, at a stage where it makes more sense and is easier to assimilate.
 \end{card}
 \pagenumber
 \end{frame}
@@ -87,7 +87,6 @@
     \begin{description}
         \item[size] objects with $size \gtrsim 1nm\ (10^{-9}m)$
         \item[speed] objects of $speed \lesssim \speedoflight$
-        \item[causality] knowledge of the past allows calculation of the future (and \textit{vice versa})
     \end{description}
 \end{card}
 \pagenumber
@@ -100,7 +99,6 @@
     \begin{description}
         \item[size] objects with $size \lesssim 1nm$
         \item[speed] objects of $speed \lesssim \speedoflight$
-        \item[causality] knowledge of the past allows calculation of the future (and vice-versa)
     \end{description}
 \end{card}
 \pagenumber
@@ -117,7 +115,7 @@
 \subsubsection{\qsp}
 \begin{frame}{\qsp}
     \begin{card}
-        A \q state (of a particle) can be considered as being composed by more than one different states, simultaneously. It is not in state A \textbf{or} B, it is in state A \textbf{and} state B, at the same time. This defies classical views of the world, where two things are never true at the same time and requires some mental effort!\\
+        A \q state (of a particle) can be seen as being composed by more than one different states, simultaneously. It is not in state A \textbf{or} B, it is in state A \textbf{and} state B, at the same time. This defies classical views of the world, where two things are never true at the same time and requires some mental effort!\\
         The state is, therefore, in a kind of superposition.
     \end{card}
 \pagenumber
@@ -158,7 +156,7 @@
 	\end{equation*}
     \end{card}
     \begin{cardTiny}
-        $\alpha$ and $\beta$ represent how likely each of the two states is. These are complex numbers such that $\sqrt{|\alpha|^2 + |\beta|^2} = 1$. 
+        $\alpha$ and $\beta$ represent how likely each of the two states is. These are complex numbers such that $|\alpha|^2 + |\beta|^2 = 1$. 
     \end{cardTiny}
     \begin{cardTiny}
         \small{
@@ -171,7 +169,7 @@
 \begin{frame}{\qsp\space-  Plane representation}
     \begin{cardTiny}
         \begin{multicols}{2}
-    		Another important remark to make is that a superposition can be projected as u unit vector onto a 2D plane (even though $\alpha$ and $\beta$ are complex numbers). In essence, this allows us to convert a superposition in the $\ket{0}\ket{1}$ basis, as is $\ket{\phi}$, onto other basis. Basis are orthonormal.
+    		Another important remark to make is that a superposition can be projected as unit vector onto a 2D plane (even though $\alpha$ and $\beta$ are complex numbers). In essence, this allows us to convert a superposition in the $\ket{0}\ket{1}$ basis, as is $\ket{\psi}$, onto other basis. Basis are orthonormal.
     		\begin{center}
                 \input{mathcha/superpos_projection.tex}
     		\end{center}
@@ -248,7 +246,7 @@
 \begin{cardTiny}
 \small{
     Pragmatically speaking, \qmt requires a few considerations. Firstly, it produces a single output form a state that is stochastic, meaning that doing it once is not enough to be sure of the probability distribution. So, typically, each experiment is executed a large number of times (hundreds and sometimes thousands) so that the confidence in the results meets the expectations.\\
-    Furthermore, as you will see when deploying to real quantum devices, current experimental setups are not perfect (and hardly ever will be) so even the simplest of programs may produce buggy results and a \q Scientist should be aware of it.\\As a matter of fact \href{https://quantumexperience.ng.bluemix.net/qx/editor}{\ibmqe}'s devices are usually well described even in the average error ratios you should expect.
+    Furthermore, as you will see when deploying to real quantum devices, current experimental setups are not perfect (and hardly ever will be) so even the simplest of programs may produce buggy results and a \q Scientist should be aware of it.\\As a matter of fact \href{https://quantumexperience.ng.bluemix.net/qx/editor}{\ibmqe}'s devices are usually well described even in the average error (noise) ratios you should expect.
 }
 \end{cardTiny}
 \pagenumber
@@ -263,6 +261,11 @@
     \end{itemize}
 \pagenumber
 \end{frame}
+
+\begin{frameImg}[width]{dilbert}
+
+
+\end{frameImg}
 
 \section{Where to learn more?}
 \begin{frame}{Where to learn more?}
