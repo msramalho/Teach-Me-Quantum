@@ -9,6 +9,8 @@ This course is adequate for general audiences without prior knowledge on Quantum
 
 This course is **Open-source** and appropriate for both _autodidacticism_ as well as _classroom teaching_ by educators, professors and lecturers in their own classes. Given the dynamic nature of the topic, any open-source contributions and future improvements are welcome.
 
+<h3 align="center">Update: This project was the winner of <a href="https://www.ibm.com/blogs/research/2019/01/ibmq-teach-quantum-winners/">IBM Qs Teach Me Quantum award</a>!</h3>
+
 ## Course Overview
 
  * 📁 [Week 0 - Hello Quantum World](Week%200%20-%20Hello%20Quantum%20World)
