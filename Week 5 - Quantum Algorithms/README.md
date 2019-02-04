@@ -9,7 +9,7 @@
  * Deutsch/Deutsch-Jozsa in Qiskit
 
 # Exercises
- * Pen and paper verificatio of the math in the description of Deutsch's Algorithm [slides](slides.pdf)
+ * Pen and paper verification of the math in the description of Deutsch's Algorithm [slides](slides.pdf)
  * [Jupyter notebook with exercises](exercises/w5_01.ipynb): implementing Deutsch's Algorithm in Qiskit
  * [Jupyter notebook with solutions](exercises/w5_01_s.ipynb)
 
