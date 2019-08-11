@@ -38,7 +38,7 @@
 \begin{frame}{\q Oracles}
 \begin{card}
     No, we are not about to delve into the \href{https://en.wikipedia.org/wiki/The_Oracle_(The_Matrix)}{Matrix's Oracle}.\\
-    \q Oracles are actually a useful abstractions for writing quantum algorithms. An Oracle hides a function that takes a number of qubits as input, performs a transformation, and produces the same number of qubits as output. It can be seen as black box (revirsible):
+    \q Oracles are actually a useful abstractions for writing quantum algorithms. An Oracle hides a function that takes a number of qubits as input, performs a transformation, and produces the same number of qubits as output. It can be seen as black box (reversible):
     \begin{center}
         \includegraphics[width=0.5\textwidth]{oracle}
     \end{center}
@@ -214,9 +214,9 @@ To replace above and get:
 \begin{frame}{\ds Algorithm}
 Separating back into the 2 qubit shape:
 \begin{equation*}
-    [\osqrt (-1)^{f\kz} \kz + \osqrt (-1)^{f(\kz}\kz][\osqrt \kz - \osqrt \ko]
+    [\osqrt (-1)^{f\kz} \kz + \osqrt (-1)^{f(\ko}\ko][\osqrt \kz - \osqrt \ko]
 \end{equation*}
-Our second qubit : $(\osqrt \kz - \osqrt \ko)$ can be ignored, and what remains is our first qubit: $(\osqrt (-1)^{f\kz} \kz + \osqrt (-1)^{f(\kz}\kz)$ which contains both $f(0)$ and $f(1)$! both images of $f$ with a single pass over the oracle. This can further be simplified as:
+Our second qubit : $(\osqrt \kz - \osqrt \ko)$ can be ignored, and what remains is our first qubit: $(\osqrt (-1)^{f\kz} \kz + \osqrt (-1)^{f(\ko}\ko)$ which contains both $f(0)$ and $f(1)$! both images of $f$ with a single pass over the oracle. This can further be simplified as:
 \begin{equation*}
     (-1)^{f(0)}(\osqrt \kz + \osqrt (-1)^{f(0) \oplus f(1)} \ko)
 \end{equation*}
